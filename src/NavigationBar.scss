@@ -1,0 +1,22 @@
+.navigation-ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+
+  li {
+    list-style: none;
+    cursor: pointer;
+    margin: 20px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .2s;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgba(0, 0, 255, 0);
+
+    &:hover {
+      color: rgb(34, 34, 255);
+      transition: .2s;
+      border-bottom: 2px solid blue;
+    }
+  }
+}
