@@ -10,16 +10,15 @@
     cursor: pointer;
     margin: 20px 0 20px 50px;
     font-size: 18px;
-    font-weight: 600;
-    transition: .2s;
+    font-weight: 500;
+    transition: .15s;
     padding-bottom: 3px;
     color: rgb(41, 41, 41);
-    border-bottom: 2px solid rgba(0, 0, 255, 0);
+    border-bottom: 2px solid rgba(65, 132, 255, 0);
 
     &:hover {
-      color: rgb(53, 53, 255);
-      transition: .2s;
-      border-bottom: 2px solid rgb(86, 56, 255);
+      color: rgb(19, 93, 255);
+      transition: .15s;
     }
   }
 }

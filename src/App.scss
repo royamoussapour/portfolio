@@ -24,24 +24,23 @@
 h1 {
   font-weight: 600;
   font-size: 70px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .title-section {
   margin: auto;
-  background: linear-gradient(to left bottom, rgb(0, 0, 255), #9393ff, rgb(211, 211, 255));
+  background: linear-gradient(to right bottom, #3B62EF, #252B97);
   width: 100%;
-  height: 500px;
-  padding: 45px 200px 30px;
+  padding: 45px 200px 55px;
   -moz-box-shadow:    inset 0 0 10px #00000064;
   -webkit-box-shadow: inset 0 0 10px #00000000;
-  box-shadow:         inset 0 0 10px #00000038;
+  box-shadow:         inset 0 0 10px #0000003a;
 }
 
 p {
   font-size: 20px;
   font-weight: 400;
-  color: rgb(24, 24, 24);
+  color: rgb(254, 254, 254);
   margin-bottom: 10px;
 }
 
@@ -51,34 +50,35 @@ p {
 }
 
 .sub-header-title {
-  color: rgb(71, 44, 125);
+  color: rgba(159, 249, 255, 0.651);
 }
 
 .contact-button {
-  border: 2px solid rgba(0, 255, 251, 0.961);
+  border: 2px solid rgba(0, 255, 251, 0.822);
   color: rgb(116, 253, 255);
   border-radius: 4px;
   font-weight: 500;
-  font-size: 19px;
-  padding: 10px 20px;
-  background: rgba(0, 0, 0, 0.214);
+  font-size: 18px;
+  cursor: pointer; 
+  padding: 10px 32px;
+  background: rgba(0, 0, 0, 0.084);
   margin-top: 50px;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.281);
-  transition: .15s;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.242);
+  transition: .2s;
 
   &:focus {
     outline: none;
   }
 
   &:hover {
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.242);
-    background: rgba(0, 0, 0, 0.363);
-    transition: .15s;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.26);
+    background: rgba(186, 186, 186, 0.075);
+    transition: .2s;
   }
 
   &:active {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.295);
-    background: rgba(0, 0, 0, 0.479); 
-    transition: .15s;
+    background: rgba(186, 186, 186, 0.205);
+    transition: .2s;
   }
 }
