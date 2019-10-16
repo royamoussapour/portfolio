@@ -2,21 +2,24 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 150px;
+  padding: 10px 0;
+  width: 83%;
 
   li {
     list-style: none;
     cursor: pointer;
-    margin: 20px 30px;
+    margin: 20px 0 20px 50px;
     font-size: 18px;
     font-weight: 600;
     transition: .2s;
     padding-bottom: 3px;
+    color: rgb(41, 41, 41);
     border-bottom: 2px solid rgba(0, 0, 255, 0);
 
     &:hover {
-      color: rgb(34, 34, 255);
+      color: rgb(53, 53, 255);
       transition: .2s;
-      border-bottom: 2px solid blue;
+      border-bottom: 2px solid rgb(86, 56, 255);
     }
   }
 }
