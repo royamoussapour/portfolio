@@ -7,11 +7,18 @@ function App() {
     <main>
       <NavigationBar />
       <section className='title-section'>
-        <p>Hello, my name is</p>
+        <p>Hello! ¡Holá! Bonjour!</p>
         <h1>Edwin Del Bosque.</h1>
         <h1 className='sub-header-title'>I build things for the web.</h1>
-        <p className='description-title'>I'm a frontend software engineer based in Denver, CO specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
-        <a href='mailto:edwinbosq@gmail.com'><button className='contact-button'>Get In Touch</button></a>
+        <p className='description-title'>I'm a <span>front-end software developer</span> based in Denver, CO specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
+        <a
+          href='mailto:edwinbosq@gmail.com'
+        ><button className='contact-button'>Get in touch</button></a>
+        <a
+          href='https://drive.google.com/file/d/1wp1hYBvpPyjSDnxtoHEar_Dnirc-U354/view?usp=sharing'
+          target="_blank"
+          rel="noopener noreferrer">
+          <button className='contact-button'>Résumé</button></a>
       </section>
     </main >
   );
