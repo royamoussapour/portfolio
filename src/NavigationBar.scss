@@ -1,24 +1,29 @@
 .navigation-ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 150px;
-  padding: 10px 0;
-  width: 83%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 150px;
+	align-items: center;
+	padding: 10px 0;
+	width: 83%;
+	height: 0px;
+	padding-top: 50px;
+	position: absolute;
+	background: none;
 
-  li {
-    list-style: none;
-    cursor: pointer;
-    margin: 20px 0 20px 50px;
-    font-size: 18px;
-    font-weight: 500;
-    transition: .15s;
-    padding-bottom: 3px;
-    color: rgb(41, 41, 41);
-    border-bottom: 2px solid rgba(65, 132, 255, 0);
+	li {
+		list-style: none;
+		cursor: pointer;
+		margin: 20px 0 20px 50px;
+		font-size: 17px;
+		font-weight: 400;
+		transition: 0.15s;
+		padding-bottom: 3px;
+		color: rgb(228, 228, 228);
+		border-bottom: 2px solid rgba(65, 132, 255, 0);
 
-    &:hover {
-      color: rgb(19, 93, 255);
-      transition: .15s;
-    }
-  }
+		&:hover {
+			color: rgb(202, 202, 202);
+			transition: 0.15s;
+		}
+	}
 }
