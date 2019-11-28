@@ -25,7 +25,7 @@ h1 {
 p {
 	font-size: 18px;
 	font-weight: 300;
-	color: rgba(255, 255, 255, 0.74);
+	color: rgba(255, 255, 255, 0.932);
 	margin-bottom: 10px;
 }
 
@@ -168,8 +168,8 @@ p {
 		justify-content: center;
 		padding-bottom: 50px;
 	}
+
 	.sub-header-title {
-		color: rgba(255, 255, 255, 0.671);
 		font-size: 32px;
 	}
 
@@ -187,5 +187,19 @@ p {
 		margin-top: 50px;
 		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.242);
 		transition: 0.2s ease-in-out;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	h1 {
+		font-size: 38px;
+	}
+
+	.introduction {
+		font-size: 16px;
+	}
+
+	.sub-header-title {
+		font-size: 38px;
 	}
 }
