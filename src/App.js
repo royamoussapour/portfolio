@@ -26,7 +26,7 @@ function App() {
 							<button className='contact-button'>Get in touch</button>
 						</a>
 						<a
-							href='https://drive.google.com/file/d/1wp1hYBvpPyjSDnxtoHEar_Dnirc-U354/view?usp=sharing'
+							href='https://drive.google.com/file/d/1xHc5laE37pDg4wb9mIK8OmBdcrEeechw/view'
 							target='_blank'
 							rel='noopener noreferrer'>
 							<button className='contact-button'>Resume</button>
