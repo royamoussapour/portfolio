@@ -12,7 +12,7 @@
 		list-style: none;
 		cursor: pointer;
 		margin: 20px 0 20px 50px;
-		font-size: 17px;
+		font-size: 18px;
 		font-weight: 400;
 		font-family: 'Inconsolata';
 		transition: 0.15s;
@@ -21,8 +21,7 @@
 		border-bottom: 2px solid rgba(65, 132, 255, 0);
 
 		&:hover {
-			color: rgb(202, 202, 202);
-			transition: 0.15s;
+			color: #fe3e55;
 		}
 	}
 }
@@ -61,6 +60,7 @@
 	font-family: 'Inconsolata';
 	position: absolute;
 	top: 30px;
+	cursor: default;
 	font-weight: 500;
 	font-size: 17px;
 	left: 45px;
@@ -68,6 +68,11 @@
 	letter-spacing: 12px;
 	line-height: 25px;
 	position: fixed;
+	transition: 0.1s;
+
+	&:hover {
+		color: #fe3e55;
+	}
 
 	// span {
 	// 	letter-spacing: 33px;
@@ -77,6 +82,10 @@
 @media only screen and (max-width: 1050px) {
 	.navigation-ul {
 		margin-right: -35px;
+	}
+
+	.logo p {
+		position: absolute;
 	}
 }
 
@@ -158,6 +167,5 @@
 		width: 80px;
 		letter-spacing: 8px;
 		line-height: 18px;
-		position: fixed;
 	}
 }
