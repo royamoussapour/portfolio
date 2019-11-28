@@ -33,11 +33,26 @@
 	position: absolute;
 	top: 30px;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 	left: 45px;
 	width: 80px;
 	letter-spacing: 12px;
 	line-height: 25px;
-
 	position: fixed;
+
+	// span {
+	// 	letter-spacing: 33px;
+	// }
+}
+
+@media only screen and (max-width: 1050px) {
+	.navigation-ul {
+		margin-right: -35px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.navigation-ul {
+		margin-right: 0px;
+	}
 }

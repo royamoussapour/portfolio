@@ -5,7 +5,9 @@ const NavigationBar = () => {
 	return (
 		<>
 			<div className='logo'>
-				<p>EDWIN DEL BOSQUE</p>
+				<p>
+					EDWIN <span>DEL</span> BOSQUE
+				</p>
 			</div>
 			<ul className='navigation-ul'>
 				<li>Home</li>
