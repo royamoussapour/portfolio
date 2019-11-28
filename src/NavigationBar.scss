@@ -54,5 +54,31 @@
 @media only screen and (max-width: 730px) {
 	.navigation-ul {
 		margin-right: 0px;
+		// box-shadow: 0 10px 10px rgba(0, 0, 0, 0.205);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 73px;
+	}
+
+	li {
+		right: 100vh;
+		position: absolute;
+		transition: 1s;
+	}
+
+	.logo p {
+		color: white;
+		font-family: 'Inconsolata';
+		position: absolute;
+		top: 10px;
+		font-weight: 500;
+		font-size: 12px;
+		left: 25px;
+		width: 80px;
+		letter-spacing: 8px;
+		line-height: 18px;
+		position: fixed;
 	}
 }
