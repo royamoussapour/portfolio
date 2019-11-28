@@ -14,9 +14,12 @@ function App() {
 					<h1>Edwin Del Bosque.</h1>
 					<h1 className='sub-header-title'>I build things for the web.</h1>
 					<p className='description-title'>
-						I'm a <span>front-end software developer</span> based in Denver, CO
-						specializing in building (and occasionally designing) exceptional,
-						high-quality websites and applications.
+						I'm a{' '}
+						<span>
+							<b>front-end engineer</b>
+						</span>{' '}
+						based in Denver, CO specializing in building (and occasionally
+						designing) exceptional, high-quality websites and applications.
 					</p>
 					<div>
 						<a href='mailto:edwinbosq@gmail.com'>
