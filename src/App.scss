@@ -1,27 +1,29 @@
 h1 {
 	font-weight: 700;
 	font-size: 70px;
-	color: rgb(233, 233, 233);
+	color: rgb(227, 237, 255);
 }
 
 .title-section {
 	margin: auto;
 	width: 100%;
 	height: 100vh;
-	padding-top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .introduction {
 	font-size: 18px;
 	font-weight: 400;
-	color: rgb(65, 235, 232);
+	color: #fe3e55;
 	margin-bottom: 10px;
 }
 
 p {
 	font-size: 18px;
 	font-weight: 400;
-	color: rgba(252, 252, 252, 0.562);
+	color: rgb(214, 229, 255);
 	margin-bottom: 10px;
 }
 
@@ -35,7 +37,7 @@ p {
 }
 
 .contact-button {
-	border: 1px solid rgb(0, 255, 251);
+	border: 1px solid #fe3e55;
 	color: rgb(233, 254, 255);
 	border-radius: 4px;
 	font-weight: 400;

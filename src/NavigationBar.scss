@@ -16,9 +16,10 @@
 		margin: 20px 0 20px 50px;
 		font-size: 17px;
 		font-weight: 400;
+		font-family: 'Inconsolata';
 		transition: 0.15s;
 		padding-bottom: 3px;
-		color: rgb(228, 228, 228);
+		color: rgb(255, 255, 255);
 		border-bottom: 2px solid rgba(65, 132, 255, 0);
 
 		&:hover {
@@ -26,4 +27,19 @@
 			transition: 0.15s;
 		}
 	}
+}
+
+.logo p {
+	color: white;
+	font-family: 'Inconsolata';
+	position: absolute;
+	top: 30px;
+	font-weight: 500;
+	font-size: 16px;
+	left: 45px;
+	width: 80px;
+	letter-spacing: 12px;
+	line-height: 25px;
+
+	position: fixed;
 }
