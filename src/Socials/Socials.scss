@@ -50,7 +50,7 @@ svg {
 		border-top: solid 1px #fe3e55;
 
 		a {
-			margin: 35px 20px 50px 20px;
+			margin: 35px 0 50px 0;
 		}
 	}
 
@@ -59,10 +59,10 @@ svg {
 		width: 0px;
 		height: 0px;
 		margin-top: 0px;
+		position: absolute;
 	}
 
 	svg {
-		margin-bottom: 30px;
 		width: 26px;
 		height: 26px;
 		fill: rgba(255, 255, 255, 0.555);
