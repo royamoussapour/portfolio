@@ -1,0 +1,86 @@
+.AboutMe {
+	width: 100%;
+	min-height: 750px;
+	padding: 170px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	h2 {
+		color: white;
+		margin-bottom: 5px;
+		font-family: 'Roboto';
+		font-size: 30px;
+		position: relative;
+		top: 23px;
+		padding-right: 15px;
+		background: #021e44;
+	}
+
+	.about-box {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 80px;
+	}
+
+	.hyperlink {
+		text-decoration: none;
+		color: #fe3e55;
+		transition: 0.2s ease-in-out;
+
+		&:hover {
+			color: rgb(255, 125, 65);
+			text-decoration: underline;
+		}
+	}
+
+	p {
+		font-weight: 400;
+		font-size: 17px;
+		width: 100%;
+		font-family: 'Roboto';
+		color: #99b1c4;
+		line-height: 1.6;
+		margin-bottom: 20px;
+	}
+
+	img {
+		width: 300px;
+		border-radius: 3px;
+		box-shadow: 20px 20px 0 #fe3e55;
+		transition: 0.3s ease-in-out;
+		margin-right: 40px;
+		margin-top: 60px;
+
+		&:hover {
+			box-shadow: 15px 15px 0 rgb(255, 119, 65);
+		}
+	}
+}
+
+.skills {
+	display: flex;
+	padding-top: 20px;
+
+	ul {
+		margin-right: 50px;
+	}
+
+	li {
+		list-style-type: none;
+		line-height: 1.8;
+		color: rgb(160, 187, 202);
+
+		span {
+			color: #fe3e55;
+			padding-right: 10px;
+		}
+	}
+}
+
+.about-description {
+	padding-top: 50px;
+	width: 50%;
+	border-top: 1px solid #5d657acb;
+}
