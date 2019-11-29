@@ -1,0 +1,48 @@
+.Projects {
+	width: 100%;
+	min-height: 750px;
+	padding: 170px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	h2 {
+		color: white;
+		margin-bottom: 5px;
+		font-family: 'Roboto';
+		font-size: 30px;
+		position: relative;
+		top: 23px;
+		padding-right: 15px;
+		background: #021e44;
+	}
+
+	.projects-container {
+		width: 100%;
+		display: grid;
+		grid-gap: 100px 40px;
+		grid-template-columns: auto-fit, minmax(330px, 1fr);
+		grid-template-rows: auto;
+		justify-items: center;
+		padding: 70px 0;
+		border-top: 1px solid rgba(108, 112, 131, 0.733);
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.Projects {
+		img {
+			width: 250px;
+		}
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.Projects {
+		img {
+			width: 250px;
+			margin-right: 20px;
+		}
+	}
+}

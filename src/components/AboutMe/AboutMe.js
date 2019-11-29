@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutMe.scss';
 import headshot from '../../assets/headshot.jpg';
 
-function AboutMe() {
+const AboutMe = () => {
 	return (
 		<main className='AboutMe'>
 			<h2>About Me</h2>
@@ -71,6 +71,6 @@ function AboutMe() {
 			</section>
 		</main>
 	);
-}
+};
 
 export default AboutMe;

@@ -4,8 +4,9 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import AboutMe from '../AboutMe/AboutMe';
 import Socials from '../Socials/Socials';
 import Footer from '../Footer/Footer';
+import Projects from '../Projects/Projects';
 
-function App() {
+const App = () => {
 	return (
 		<>
 			<main>
@@ -37,10 +38,11 @@ function App() {
 				</section>
 			</main>
 			<AboutMe />
+			<Projects />
 			<Socials />
 			<Footer />
 		</>
 	);
-}
+};
 
 export default App;

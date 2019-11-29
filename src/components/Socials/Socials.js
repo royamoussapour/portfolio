@@ -1,7 +1,7 @@
 import React from 'react';
 import './Socials.scss';
 
-function Socials() {
+const Socials = () => {
 	return (
 		<div className='Socials'>
 			<a
@@ -69,6 +69,6 @@ function Socials() {
 			<div className='stripe'></div>
 		</div>
 	);
-}
+};
 
 export default Socials;
