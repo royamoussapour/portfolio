@@ -23,13 +23,14 @@ function App() {
 						designing) exceptional, high-quality websites and applications.
 					</p>
 					<div>
-						<a href='mailto:edwinbosq@gmail.com'>
+						<a href='mailto:edwinbosq@gmail.com' className='button-link'>
 							<button className='contact-button'>Get in touch</button>
 						</a>
 						<a
 							href='https://drive.google.com/file/d/1xHc5laE37pDg4wb9mIK8OmBdcrEeechw/view'
 							target='_blank'
-							rel='noopener noreferrer'>
+							rel='noopener noreferrer'
+							className='button-link'>
 							<button className='contact-button'>Resume</button>
 						</a>
 					</div>
