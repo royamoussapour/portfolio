@@ -3,6 +3,7 @@ import './App.scss';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import AboutMe from '../AboutMe/AboutMe';
 import Socials from '../Socials/Socials';
+import Footer from '../Footer/Footer';
 
 function App() {
 	return (
@@ -33,9 +34,10 @@ function App() {
 						</a>
 					</div>
 				</section>
-				<AboutMe />
-				<Socials />
 			</main>
+			<AboutMe />
+			<Socials />
+			<Footer />
 		</>
 	);
 }
