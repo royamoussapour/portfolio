@@ -45,14 +45,12 @@ svg {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-evenly;
 		width: 100%;
 		border-top: solid 1px #fe3e55;
 
 		a {
-			height: 26px;
-			width: 26px;
-			margin: 35px 25px;
+			margin: 35px 20px 50px 20px;
 		}
 	}
 
@@ -65,10 +63,9 @@ svg {
 
 	svg {
 		margin-bottom: 30px;
-		width: 22px;
-		height: 22px;
+		width: 26px;
+		height: 26px;
 		fill: rgba(255, 255, 255, 0.555);
-		transition: 0.15s ease-in-out;
 		position: relative;
 
 		&:hover {
