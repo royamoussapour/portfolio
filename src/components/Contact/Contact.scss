@@ -1,0 +1,115 @@
+.Contact {
+	width: 100%;
+	min-height: 670px;
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+	h2 {
+		margin-bottom: 70px;
+		font-family: 'Roboto';
+		font-size: 50px;
+		position: relative;
+		top: 23px;
+		padding-right: 15px;
+		color: white;
+	}
+
+	p {
+		width: 550px;
+		margin-top: 0px;
+		text-align: center;
+		margin-top: -8px;
+		font-family: 'Inconsolata';
+		font-size: 22px;
+	}
+
+	svg {
+		margin: 0px;
+		padding: 0px;
+		width: 63%;
+	}
+
+	.email-button {
+		margin-top: 50px;
+		transition: 100ms ease-in-out;
+
+		&:active {
+			margin-top: 43px;
+			width: 45px;
+			height: 45px;
+		}
+	}
+
+	a {
+		transition: background-color 300ms ease-out;
+		background-color: #ff3e55;
+		position: relative;
+		width: 50px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 100%;
+		transition: background-color 300ms ease-out;
+		box-shadow: 0 0 15px #ff3e5425;
+
+		&:hover {
+			background: rgb(0, 56, 139);
+			box-shadow: 0 0 15px rgba(0, 56, 139, 0.192);
+
+			.st0 {
+				fill: #ff3e55;
+			}
+		}
+	}
+
+	.st0 {
+		fill: black;
+		transition: background-color 300ms ease-out;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.Contact {
+		min-height: 520px;
+
+		p {
+			font-size: 18px;
+			width: 400px;
+		}
+
+		h2 {
+			font-size: 40px;
+		}
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.Contact {
+		p {
+			font-size: 18px;
+			width: 400px;
+		}
+
+		h2 {
+			font-size: 40px;
+		}
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.Contact {
+		min-height: 470px;
+		p {
+			font-size: 16px;
+			width: 320px;
+		}
+
+		h2 {
+			font-size: 30px;
+		}
+	}
+}
