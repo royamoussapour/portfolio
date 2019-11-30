@@ -22,9 +22,7 @@ const ProjectCard = project => {
 						<span>{title}</span>{' '}
 					</a>
 				</h3>
-				<div>
-					<p className='overlap'>{description}</p>
-				</div>
+				<p className='overlap'>{description}</p>
 				<section className='tech'>
 					<ul>
 						{technologies1.map(tech => (

@@ -37,8 +37,8 @@ class NavigationBar extends Component {
 					className={`navigation-ul ${this.state.isActive &&
 						'navigation-ul-active'}`}>
 					<li onClick={() => this.closeMobileMenu()}>Home</li>
-					<li onClick={() => this.closeMobileMenu()}>Projects</li>
 					<li onClick={() => this.closeMobileMenu()}>About</li>
+					<li onClick={() => this.closeMobileMenu()}>Projects</li>
 					<li onClick={() => this.closeMobileMenu()}>Contact</li>
 				</ul>
 			</nav>
