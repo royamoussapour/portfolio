@@ -31,9 +31,7 @@ class NavigationBar extends Component {
 					<div className='bar-3'></div>
 				</div>
 				<div className='logo'>
-					<p>
-						EDWIN <span>DEL</span> BOSQUE
-					</p>
+					<p>EDWIN DEL BOSQUE</p>
 				</div>
 				<ul
 					className={`navigation-ul ${this.state.isActive &&

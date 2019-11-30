@@ -11,7 +11,7 @@ const Projects = () => {
 	return (
 		<main className='Projects'>
 			<h2>
-				<span>Projects</span>
+				<span>Some Things I've Built</span>
 			</h2>
 			<section className='projects-container'>{cards}</section>
 		</main>

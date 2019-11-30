@@ -8,7 +8,7 @@
 	justify-content: flex-start;
 
 	h2 {
-		color: white;
+		color: rgb(230, 230, 230);
 		margin-bottom: 5px;
 		font-family: 'Roboto';
 		font-size: 30px;
@@ -71,6 +71,7 @@
 	li {
 		list-style-type: none;
 		line-height: 1.8;
+		font-family: 'Inconsolata';
 		color: rgb(160, 187, 202);
 
 		span {
@@ -125,6 +126,11 @@
 		img {
 			width: 250px;
 			margin-right: 20px;
+		}
+
+		h2 {
+			font-size: 25px;
+			top: 20px;
 		}
 	}
 }
