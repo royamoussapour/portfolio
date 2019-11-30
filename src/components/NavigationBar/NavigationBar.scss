@@ -8,6 +8,7 @@
 	padding-top: 50px;
 	background: #021e44;
 	padding-right: 20px;
+	z-index: 10;
 
 	li {
 		list-style: none;
@@ -125,11 +126,12 @@
 
 	.hamburger-menu {
 		visibility: visible;
-		z-index: 1;
+		z-index: 11;
 	}
 
 	.hamburger-menu-active {
 		align-items: center;
+
 		.bar-1 {
 			height: 3px;
 			width: 40px;
