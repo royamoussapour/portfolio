@@ -19,17 +19,19 @@ const projects = [
 	{
 		id: 2,
 		title: 'Artworked',
-		description: 'I built this app to solve my own personal problem finding good quality artworks for my music library. Artworked allows you to search and download all iTunes artworks in their original quality. As a last minute extra, it also plays previews.',
+		description:
+			'I built this app to solve my own personal problem finding good quality artworks for my music library. Artworked allows you to search and download all iTunes artworks in their original quality. As a last minute extra, it also plays previews.',
 		repoLink: 'https://github.com/edwindelbosque/artworked',
 		deployLink: 'https://edwindelbosque.github.io/artworked/',
 		image: artworked,
 		technologies1: ['React', 'Redux', 'Router'],
-		technologies2: ['Sketch', 'iTunes API',  'Jest & Enzyme']
+		technologies2: ['Sketch', 'iTunes API', 'Jest & Enzyme']
 	},
 	{
 		id: 3,
 		title: 'The Overlook',
-		description: "An web app built to help hotel staff manage customers, bookings, bills, and room services. Heavy data manipulation with dates and booking availabilities.",
+		description:
+			'A web app built to help hotel staff manage customers, bookings, bills, and room services. Heavy data manipulation with dates and booking availabilities.',
 		repoLink: 'https://github.com/edwindelbosque/TheOverlook',
 		deployLink: 'https://edwindelbosque.github.io/TheOverlook/',
 		image: theOverlook,
@@ -39,7 +41,8 @@ const projects = [
 	{
 		id: 4,
 		title: 'Noted.',
-		description: "A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.",
+		description:
+			'A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.',
 		repoLink: 'https://github.com/edwindelbosque/Noted',
 		deployLink: 'https://edwindelbosque.github.io/Noted/',
 		image: noted,
@@ -56,7 +59,7 @@ const projects = [
 		image: cowboysVsAliens,
 		technologies1: ['jQuery', 'SCSS', 'Mocha', 'Chai'],
 		technologies2: ['Spies', 'API', 'Skecth']
-	},
+	}
 ];
 
 export default projects;

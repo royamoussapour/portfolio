@@ -26,7 +26,7 @@ const App = () => {
 					</p>
 					<div>
 						<a href='mailto:edwinbosq@gmail.com' className='button-link'>
-							<button className='contact-button'>Get in touch</button>
+							<button className='contact-button'>Get In Touch</button>
 						</a>
 						<a
 							href='https://drive.google.com/file/d/1xHc5laE37pDg4wb9mIK8OmBdcrEeechw/view'
