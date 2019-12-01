@@ -8,14 +8,13 @@
 	justify-content: flex-start;
 
 	h2 {
-		color: rgb(228, 228, 228);
+		color: rgba(255, 255, 255, 0.87);
 		margin-bottom: 5px;
 		font-family: 'Roboto';
 		font-size: 30px;
 		position: relative;
 		top: 23px;
 		padding-right: 15px;
-		background: #021e44;
 	}
 
 	.projects-container {
@@ -26,7 +25,6 @@
 		grid-template-rows: auto;
 		justify-items: center;
 		padding: 70px 0;
-		border-top: 1px solid rgba(108, 112, 131, 0.733);
 	}
 }
 

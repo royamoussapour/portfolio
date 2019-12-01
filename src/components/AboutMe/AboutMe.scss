@@ -8,14 +8,13 @@
 	justify-content: flex-start;
 
 	h2 {
-		color: rgb(230, 230, 230);
+		color: rgba(230, 230, 230, 0.925);
 		margin-bottom: 5px;
 		font-family: 'Roboto';
 		font-size: 30px;
 		position: relative;
 		top: 23px;
 		padding-right: 15px;
-		background: #021e44;
 		transition: 0.3s ease-in-out;
 	}
 
@@ -41,7 +40,7 @@
 		font-size: 17px;
 		width: 100%;
 		font-family: 'Roboto';
-		color: #99b1c4;
+		color: #e4f3ff;
 		line-height: 1.6;
 		margin-bottom: 20px;
 		transition: 0.3s ease-in-out;
@@ -50,7 +49,6 @@
 	img {
 		width: 300px;
 		border-radius: 3px;
-		box-shadow: 20px 20px 0 #fe3e55;
 		transition: 0.3s ease-in-out;
 		margin-right: 40px;
 		margin-top: 60px;
@@ -62,13 +60,13 @@
 
 	@keyframes floating {
 		from {
-			box-shadow: 22px 22px 0 #ff354c;
+			box-shadow: 22px 22px 0 #00ffdd54;
 		}
 		50% {
-			box-shadow: 15px 15px 0 rgb(255, 119, 65);
+			box-shadow: 15px 15px 0 rgba(0, 255, 149, 0.74);
 		}
 		to {
-			box-shadow: 22px 22px 0 #ff354c;
+			box-shadow: 22px 22px 0 #00ffea54;
 		}
 	}
 }
@@ -86,7 +84,7 @@
 		list-style-type: none;
 		line-height: 1.8;
 		font-family: 'Inconsolata';
-		color: rgb(160, 187, 202);
+		color: rgb(225, 244, 255);
 
 		span {
 			color: #fe3e55;
@@ -98,7 +96,6 @@
 .about-description {
 	padding-top: 50px;
 	width: 50%;
-	border-top: 1px solid #5d657acb;
 }
 
 @media only screen and (max-width: 900px) {
@@ -117,7 +114,6 @@
 		padding-top: 50px;
 		padding-right: 20px;
 		width: 100%;
-		border-top: 1px solid #5d657acb;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

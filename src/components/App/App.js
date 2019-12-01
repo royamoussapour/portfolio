@@ -13,7 +13,7 @@ const App = () => {
 			<main name='Home'>
 				<NavigationBar />
 				<section className='title-section'>
-					<p className='introduction'>Hello! ¡Hola! Bonjour! My name is</p>
+					<p className='introduction'>Hello! ¡Hola! My name is</p>
 					<h1>Edwin Del Bosque.</h1>
 					<h1 className='sub-header-title'>I build things for the web.</h1>
 					<p className='description-title'>
@@ -37,6 +37,7 @@ const App = () => {
 						</a>
 					</div>
 				</section>
+				<div className='orb'></div>
 			</main>
 			<AboutMe />
 			<Projects />
