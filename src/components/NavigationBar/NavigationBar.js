@@ -22,14 +22,18 @@ class NavigationBar extends Component {
 	};
 
 	render() {
+		const { isActive } = this.state;
 		return (
 			<>
+				<div
+					className={`blur-hide ${isActive && 'blur-show'}`}
+					onClick={() => this.closeMobileMenu()}></div>
 				<div className='nav-wrapper-mobile'></div>
 				<div className='nav-wrapper'>
 					<Headroom disableInlineStyles>
 						<nav>
 							<div
-								className={`hamburger-menu ${this.state.isActive &&
+								className={`hamburger-menu ${isActive &&
 									'hamburger-menu-active'}`}
 								onClick={() => this.toggleMobileMenu()}>
 								<div className='bar-1'></div>
@@ -40,7 +44,7 @@ class NavigationBar extends Component {
 								<p>EDWIN DEL BOSQUE</p>
 							</div>
 							<ul
-								className={`navigation-ul ${this.state.isActive &&
+								className={`navigation-ul ${isActive &&
 									'navigation-ul-active'}`}>
 								<Link
 									activeClass='active-scroll'
