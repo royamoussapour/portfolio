@@ -29,7 +29,7 @@ const App = () => {
 							<button className='contact-button'>Get In Touch</button>
 						</a>
 						<a
-							href='https://drive.google.com/file/d/1xHc5laE37pDg4wb9mIK8OmBdcrEeechw/view'
+							href='https://drive.google.com/file/d/1A-JhDL5DjqUBydVglUiZZX-C4tBk3joC/view?usp=sharing'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='button-link'>

@@ -43,7 +43,7 @@ class NavigationBar extends Component {
 								className={`navigation-ul ${this.state.isActive &&
 									'navigation-ul-active'}`}>
 								<Link
-									activeClass='active'
+									activeClass='active-scroll'
 									to='Home'
 									spy={true}
 									smooth={true}
@@ -53,7 +53,6 @@ class NavigationBar extends Component {
 									<li onClick={() => this.closeMobileMenu()}>Home</li>
 								</Link>
 								<Link
-									activeClass='active'
 									to='AboutMe'
 									spy={true}
 									smooth={true}
@@ -63,7 +62,6 @@ class NavigationBar extends Component {
 									<li onClick={() => this.closeMobileMenu()}>About</li>
 								</Link>
 								<Link
-									activeClass='active'
 									to='Projects'
 									spy={true}
 									smooth={true}
@@ -73,7 +71,6 @@ class NavigationBar extends Component {
 									<li onClick={() => this.closeMobileMenu()}>Projects</li>
 								</Link>
 								<Link
-									activeClass='active'
 									to='Footer'
 									spy={true}
 									smooth={true}

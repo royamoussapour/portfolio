@@ -10,7 +10,6 @@
 	left: 0;
 	right: 0;
 	z-index: 10;
-	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.199);
 }
 
 .headroom--unfixed {
@@ -57,19 +56,19 @@
 	background: #021e44;
 	padding-right: 60px;
 	width: 100%;
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.199);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.151);
 
 	li {
 		list-style: none;
 		cursor: pointer;
-		margin: 20px 0 50px 30px;
+		margin: 20px 0 45px 30px;
 		font-size: 18px;
 		font-weight: 400;
 		font-family: 'Inconsolata';
 		transition: 0.15s;
 		padding: 5px 10px;
 		padding-bottom: 3px;
-		color: rgb(205, 215, 224);
+		color: rgb(214, 225, 235);
 		border-bottom: 2px solid rgba(65, 132, 255, 0);
 
 		&:hover {
