@@ -60,13 +60,13 @@
 
 	@keyframes floating {
 		from {
-			box-shadow: 22px 22px 0 #00ffdd54;
+			box-shadow: 15px 15px 0 #00ffdd54;
 		}
 		50% {
-			box-shadow: 15px 15px 0 rgba(0, 255, 149, 0.74);
+			box-shadow: 15px 15px 0 rgba(0, 255, 149, 0.589);
 		}
 		to {
-			box-shadow: 22px 22px 0 #00ffea54;
+			box-shadow: 15px 15px 0 #00ffea54;
 		}
 	}
 }

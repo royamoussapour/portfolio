@@ -15,7 +15,7 @@
 }
 
 .stripe {
-	background: #cecece;
+	background: rgba(255, 255, 255, 0.555);
 	width: 1px;
 	height: 120px;
 	margin-top: 15px;
@@ -30,7 +30,7 @@ svg {
 	position: relative;
 
 	&:hover {
-		fill: #fe3e55;
+		fill: #ffffff;
 	}
 }
 
@@ -77,7 +77,7 @@ svg {
 		position: relative;
 
 		&:hover {
-			fill: #fe3e55;
+			fill: #fe3e58;
 		}
 	}
 }
