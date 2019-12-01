@@ -21,6 +21,11 @@
 		border-right: 1px solid rgba(188, 211, 255, 0);
 		border-left: 1px solid rgba(188, 211, 255, 0);
 		border-radius: 4px 4px 0 0;
+		transition: 0.3s ease-in-out;
+
+		&:hover {
+			filter: grayscale(100%);
+		}
 	}
 
 	.card-text {
