@@ -42,7 +42,7 @@ class NavigationBar extends Component {
 						to='Home'
 						spy={true}
 						smooth={true}
-						offset={0}
+						offset={-30}
 						duration={1200}>
 						<li onClick={() => this.closeMobileMenu()}>Home</li>
 					</Link>
@@ -69,7 +69,7 @@ class NavigationBar extends Component {
 						to='Footer'
 						spy={true}
 						smooth={true}
-						offset={-620}
+						offset={-600}
 						duration={1200}>
 						<li onClick={() => this.closeMobileMenu()}>Contact</li>
 					</Link>
