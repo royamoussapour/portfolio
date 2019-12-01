@@ -50,7 +50,9 @@ class NavigationBar extends Component {
 									offset={-30}
 									ignoreCancelEvents={true}
 									duration={1200}>
-									<li onClick={() => this.closeMobileMenu()}>Home</li>
+									<li onClick={() => this.closeMobileMenu()}>
+										<span>01.</span>Home
+									</li>
 								</Link>
 								<Link
 									to='AboutMe'
@@ -59,7 +61,9 @@ class NavigationBar extends Component {
 									offset={60}
 									ignoreCancelEvents={true}
 									duration={1200}>
-									<li onClick={() => this.closeMobileMenu()}>About</li>
+									<li onClick={() => this.closeMobileMenu()}>
+										<span>02.</span>About
+									</li>
 								</Link>
 								<Link
 									to='Projects'
@@ -68,7 +72,9 @@ class NavigationBar extends Component {
 									offset={0}
 									ignoreCancelEvents={true}
 									duration={1200}>
-									<li onClick={() => this.closeMobileMenu()}>Projects</li>
+									<li onClick={() => this.closeMobileMenu()}>
+										<span>03.</span>Projects
+									</li>
 								</Link>
 								<Link
 									to='Footer'
@@ -77,7 +83,9 @@ class NavigationBar extends Component {
 									offset={-600}
 									ignoreCancelEvents={true}
 									duration={1200}>
-									<li onClick={() => this.closeMobileMenu()}>Contact</li>
+									<li onClick={() => this.closeMobileMenu()}>
+										<span>04.</span>Contact
+									</li>
 								</Link>
 							</ul>
 						</nav>
