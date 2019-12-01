@@ -21,7 +21,9 @@ h1 {
 	font-weight: 400;
 	color: #fe3e55;
 	margin-bottom: 20px;
+	margin-left: 2px;
 	font-family: 'Inconsolata';
+	transition: 0.3s ease-in-out;
 }
 
 p {
@@ -29,6 +31,7 @@ p {
 	font-weight: 300;
 	color: rgba(255, 255, 255, 0.932);
 	margin-bottom: 10px;
+	transition: 0.3s ease-in-out;
 }
 
 .description-title {
@@ -38,10 +41,12 @@ p {
 	line-height: 1.6;
 	font-family: 'Roboto';
 	max-width: 500px;
+	transition: 0.3s ease-in-out;
 }
 
 .sub-header-title {
 	color: rgba(255, 255, 255, 0.5);
+	transition: 0.3s ease-in-out;
 }
 
 .contact-button {
