@@ -12,7 +12,7 @@ const ProjectCard = project => {
 		image
 	} = project;
 	return (
-		<div className='ProjectCard'>
+		<div className='ProjectCard' name='Projects'>
 			<a href={deployLink} target='_blank' rel='noopener noreferrer'>
 				<img src={image} alt={`Screenshot of ${title}`} />
 			</a>

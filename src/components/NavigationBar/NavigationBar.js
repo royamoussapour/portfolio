@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './NavigationBar.scss';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 class NavigationBar extends Component {
 	constructor() {
@@ -36,10 +37,42 @@ class NavigationBar extends Component {
 				<ul
 					className={`navigation-ul ${this.state.isActive &&
 						'navigation-ul-active'}`}>
-					<li onClick={() => this.closeMobileMenu()}>Home</li>
-					<li onClick={() => this.closeMobileMenu()}>About</li>
-					<li onClick={() => this.closeMobileMenu()}>Projects</li>
-					<li onClick={() => this.closeMobileMenu()}>Contact</li>
+					<Link
+						activeClass='active'
+						to='Home'
+						spy={true}
+						smooth={true}
+						offset={0}
+						duration={1200}>
+						<li onClick={() => this.closeMobileMenu()}>Home</li>
+					</Link>
+					<Link
+						activeClass='active'
+						to='AboutMe'
+						spy={true}
+						smooth={true}
+						offset={60}
+						duration={1200}>
+						<li onClick={() => this.closeMobileMenu()}>About</li>
+					</Link>
+					<Link
+						activeClass='active'
+						to='Projects'
+						spy={true}
+						smooth={true}
+						offset={-150}
+						duration={1200}>
+						<li onClick={() => this.closeMobileMenu()}>Projects</li>
+					</Link>
+					<Link
+						activeClass='active'
+						to='Footer'
+						spy={true}
+						smooth={true}
+						offset={-620}
+						duration={1200}>
+						<li onClick={() => this.closeMobileMenu()}>Contact</li>
+					</Link>
 				</ul>
 			</nav>
 		);

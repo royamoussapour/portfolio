@@ -10,7 +10,7 @@ import Contact from '../Contact/Contact';
 const App = () => {
 	return (
 		<>
-			<main>
+			<main name='Home'>
 				<NavigationBar />
 				<section className='title-section'>
 					<p className='introduction'>Hello! ¡Hola! Bonjour! My name is</p>

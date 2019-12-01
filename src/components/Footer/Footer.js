@@ -3,7 +3,7 @@ import './Footer.scss';
 
 const Footer = () => {
 	return (
-		<footer className='Footer'>
+		<footer className='Footer' name='Footer'>
 			<p>Designed & Built by Edwin Del Bosque</p>
 		</footer>
 	);
