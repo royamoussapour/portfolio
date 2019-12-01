@@ -1,9 +1,35 @@
-nav {
+.headroom {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 4;
+}
+.headroom-wrapper {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 10;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.199);
+}
+
+.headroom--unfixed {
+	position: relative;
+	transform: translateY(0);
+	transition: transform 0.2s ease-in-out;
+}
+.headroom--scrolled {
+	transition: transform 0.2s ease-in-out;
+}
+.headroom--unpinned {
+	position: fixed;
+	transform: translateY(-150%);
+	transition: transform 0.2s ease-in-out;
+}
+.headroom--pinned {
+	position: fixed;
+	transform: translateY(0%);
+	transition: transform 0.2s ease-in-out;
 }
 
 .nav-wrapper {
@@ -14,7 +40,7 @@ nav {
 	width: 100vw;
 	height: 70px;
 	position: fixed;
-	top: -56px;
+	top: -100px;
 	left: 0;
 	background: #021e44;
 	z-index: 3;
