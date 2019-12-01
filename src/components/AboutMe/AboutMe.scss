@@ -30,7 +30,7 @@
 		transition: 0.2s ease-in-out;
 
 		&:hover {
-			color: rgb(255, 125, 65);
+			color: #64ffda;
 			text-decoration: underline;
 		}
 	}
@@ -63,7 +63,7 @@
 			box-shadow: 15px 15px 0 #00ffdd54;
 		}
 		50% {
-			box-shadow: 15px 15px 0 rgba(0, 255, 149, 0.589);
+			box-shadow: 15px 15px 0 #64ffda;
 		}
 		to {
 			box-shadow: 15px 15px 0 #00ffea54;
@@ -84,10 +84,10 @@
 		list-style-type: none;
 		line-height: 1.8;
 		font-family: 'Inconsolata';
-		color: rgb(225, 244, 255);
+		color: #c9dae4;
 
 		span {
-			color: #fe3e55;
+			color: #64ffda;
 			padding-right: 10px;
 		}
 	}

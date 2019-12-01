@@ -6,8 +6,10 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	background: #1f385c;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+	background: #444d5f4d;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.24);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
 	transition: 0.3s ease-in-out;
 
 	a {
@@ -17,14 +19,11 @@
 
 	img {
 		width: 100%;
-		border-top: 1px solid rgba(255, 224, 188, 0);
-		border-right: 1px solid rgba(188, 211, 255, 0);
-		border-left: 1px solid rgba(188, 211, 255, 0);
 		border-radius: 4px 4px 0 0;
-		transition: 0.3s ease-in-out;
+		transition: 0.2s;
 
 		&:hover {
-			filter: grayscale(100%);
+			filter: brightness(90%);
 		}
 	}
 
@@ -54,7 +53,7 @@
 		font-family: 'Inconsolata';
 		text-align: left;
 		min-width: 100px;
-		color: #7d8fb6;
+		color: #64ffda;
 
 		span {
 			padding-right: 15px;
@@ -81,7 +80,7 @@
 	.overlap {
 		font-size: 14px;
 		line-height: 1.6;
-		color: rgb(186, 201, 223);
+		color: rgb(212, 222, 238);
 		padding: 0px 20px;
 		border-radius: 4px;
 		width: 100%;
@@ -129,6 +128,8 @@
 
 @media only screen and (max-width: 500px) {
 	.ProjectCard {
+		background: #373c479f;
+
 		.tech {
 			display: flex;
 			padding: 10px 20px 20px 20px;
