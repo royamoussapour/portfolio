@@ -36,11 +36,10 @@
 
 	.email-button {
 		margin-top: 50px;
-		transition: 100ms ease-in-out;
+		transition: 0.25s;
 	}
 
 	a {
-		transition: background-color 300ms ease-out;
 		background-color: #64ffda;
 		position: relative;
 		width: 50px;
@@ -49,7 +48,7 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 100%;
-		transition: background-color 300ms ease-out;
+		transition: 0.25s;
 		box-shadow: 0 0 15px #ff3e5425;
 
 		&:hover {
@@ -57,14 +56,14 @@
 			box-shadow: 0 0 15px rgba(0, 56, 139, 0.192);
 
 			.st0 {
-				fill: #ff3964;
+				fill: #64ffda;
 			}
 		}
 	}
 
 	.st0 {
 		fill: black;
-		transition: background-color 300ms ease-out;
+		transition: 0.25s;
 	}
 }
 
