@@ -5,7 +5,9 @@ import headshot from '../../assets/headshot.jpg';
 const AboutMe = () => {
 	return (
 		<main className='AboutMe' name='AboutMe'>
-			<h2>About Me</h2>
+			<h2>
+				<span>02. </span>About Me
+			</h2>
 			<section className='about-box'>
 				<section className='about-description'>
 					<p>

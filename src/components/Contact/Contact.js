@@ -1,11 +1,12 @@
 import React from 'react';
-import headshot from '../../assets/headshot.jpg';
 import './Contact.scss';
 
 const Contact = () => {
 	return (
 		<main className='Contact' name='Contact'>
-			<h2>Get In Touch</h2>
+			<h2>
+				<span>04. Let's Make Magic!</span>Get In Touch
+			</h2>
 			<p>Interested in working together?</p>
 			<p>Feel free to contact me for any project or collaboration.</p>
 			<a href='mailto:edwinbosq@gmail.com' className='email-button'>

@@ -5,6 +5,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 40px;
 	justify-content: flex-start;
 
 	h2 {
@@ -12,10 +13,20 @@
 		font-family: 'Roboto';
 		font-size: 50px;
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		top: 23px;
 		padding-right: 15px;
 		color: white;
 		transition: 0.3s ease-in-out;
+
+		span {
+			font-family: 'Inconsolata';
+			font-size: 17px;
+			color: #64ffda;
+			margin-bottom: 20px;
+		}
 	}
 
 	p {
@@ -104,7 +115,13 @@
 		}
 
 		h2 {
-			font-size: 30px;
+			font-size: 36px;
+
+			span {
+				font-family: 'Inconsolata';
+				font-size: 14px;
+				margin-bottom: 10px;
+			}
 		}
 	}
 }

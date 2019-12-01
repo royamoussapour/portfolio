@@ -16,6 +16,13 @@
 		top: 23px;
 		padding-right: 15px;
 		transition: 0.3s ease-in-out;
+
+		span {
+			font-family: 'Inconsolata';
+			font-size: 24px;
+			color: #64ffda;
+			margin-right: -3px;
+		}
 	}
 
 	.about-box {
@@ -65,7 +72,7 @@
 			box-shadow: 15px 15px 0 #00ffdd54;
 		}
 		50% {
-			box-shadow: 15px 15px 0 #64ffdbbb;
+			box-shadow: 15px 15px 0 #64ffdbd8;
 		}
 		to {
 			box-shadow: 15px 15px 0 #00ffea54;
