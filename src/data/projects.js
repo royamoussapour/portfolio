@@ -1,6 +1,6 @@
-import theScreeningRoom from '../assets/theScreeningRoom.png';
-import cowboysVsAliens from '../assets/cowboysVsAliens.png';
-import artworked from '../assets/artworked.png';
+import theScreeningRoom from '../assets/theScreeningRoom.jpg';
+import cowboysVsAliens from '../assets/cowboysVsAliens.jpg';
+import artworked from '../assets/artworked.jpg';
 import noted from '../assets/noted.gif';
 import theOverlook from '../assets/theOverlook.gif';
 

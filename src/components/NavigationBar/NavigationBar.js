@@ -46,6 +46,7 @@ class NavigationBar extends Component {
 								spy={true}
 								smooth={true}
 								offset={-30}
+								ignoreCancelEvents={true}
 								duration={1200}>
 								<li onClick={() => this.closeMobileMenu()}>Home</li>
 							</Link>
@@ -55,6 +56,7 @@ class NavigationBar extends Component {
 								spy={true}
 								smooth={true}
 								offset={60}
+								ignoreCancelEvents={true}
 								duration={1200}>
 								<li onClick={() => this.closeMobileMenu()}>About</li>
 							</Link>
@@ -63,7 +65,8 @@ class NavigationBar extends Component {
 								to='Projects'
 								spy={true}
 								smooth={true}
-								offset={-150}
+								offset={-220}
+								ignoreCancelEvents={true}
 								duration={1200}>
 								<li onClick={() => this.closeMobileMenu()}>Projects</li>
 							</Link>
@@ -73,6 +76,7 @@ class NavigationBar extends Component {
 								spy={true}
 								smooth={true}
 								offset={-600}
+								ignoreCancelEvents={true}
 								duration={1200}>
 								<li onClick={() => this.closeMobileMenu()}>Contact</li>
 							</Link>
