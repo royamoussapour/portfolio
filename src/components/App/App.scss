@@ -79,6 +79,40 @@ p {
 	}
 }
 
+.orb {
+	height: 1000px;
+	width: 1000px;
+	background: linear-gradient(
+		to left bottom,
+		#e100ff,
+		#be033b,
+		#021e4400,
+		#021e4400
+	);
+	z-index: -1;
+	position: fixed;
+	transform: rotate(-15deg);
+	bottom: -520px;
+	right: -250px;
+	border-radius: 100%;
+	animation-name: orbfloat;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes orbfloat {
+	from {
+		transform: translate(30px, 0px);
+	}
+	50% {
+		transform: translate(0px, -30px);
+	}
+	to {
+		transform: translate(30px, 0px);
+	}
+}
+
 @media only screen and (max-width: 1050px) {
 	h1 {
 		font-size: 60px;
@@ -209,38 +243,9 @@ p {
 	.sub-header-title {
 		font-size: 38px;
 	}
-}
 
-.orb {
-	height: 1000px;
-	width: 1000px;
-	background: linear-gradient(
-		to left bottom,
-		#e100ff,
-		#be033b,
-		#021e4400,
-		#021e4400
-	);
-	z-index: -1;
-	position: fixed;
-	transform: rotate(-15deg);
-	bottom: -520px;
-	right: -250px;
-	border-radius: 100%;
-	animation-name: orbfloat;
-	animation-duration: 15s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-}
-
-@keyframes orbfloat {
-	from {
-		transform: translate(30px, 0px);
-	}
-	50% {
-		transform: translate(0px, -30px);
-	}
-	to {
-		transform: translate(30px, 0px);
+	.orb {
+		bottom: -600px;
+		right: -275px;
 	}
 }

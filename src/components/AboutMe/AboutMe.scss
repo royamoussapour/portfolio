@@ -26,7 +26,9 @@
 
 	.hyperlink {
 		text-decoration: none;
-		color: #fe3e55;
+		color: #64ffda;
+		border-radius: 2px;
+		padding: 2px 2px;
 		transition: 0.2s ease-in-out;
 
 		&:hover {
