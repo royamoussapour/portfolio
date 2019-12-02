@@ -22,7 +22,6 @@ class NavigationBar extends Component {
 		window.pageYOffset >= 70
 			? this.setState({ isTop: false })
 			: this.setState({ isTop: true });
-		console.log(this.state.isTop);
 	};
 
 	toggleMobileMenu = () => {
