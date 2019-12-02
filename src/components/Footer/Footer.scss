@@ -3,7 +3,7 @@
 	width: 100%;
 	position: absolute;
 	left: 0;
-	height: 80px;
+	height: 120px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,6 +14,27 @@
 		font-size: 15px;
 		color: rgba(212, 236, 255, 0.726);
 		margin-top: 10px;
+		display: flex;
+		align-items: center;
+		opacity: 1;
+		padding: 8px 15px;
+		border-radius: 1px;
+
+		span {
+			width: 52px;
+			padding: 0 3px;
+			font-size: 11px;
+			color: #64ffda;
+			line-height: 1.5;
+			letter-spacing: 3px;
+			margin-left: 8px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.Footer {
+		height: 90px;
 	}
 }
 
@@ -23,6 +44,14 @@
 
 		p {
 			margin-top: 60px;
+
+			span {
+				font-size: 12px;
+				letter-spacing: 2px;
+				width: fit-content;
+				border: none;
+				margin-left: 6px;
+			}
 		}
 	}
 }
