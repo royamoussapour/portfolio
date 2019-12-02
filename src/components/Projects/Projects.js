@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.scss';
+import Fade from 'react-reveal/Fade';
 import projects from '../../data/projects';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
@@ -10,9 +11,11 @@ const Projects = () => {
 
 	return (
 		<main className='Projects'>
-			<h2>
-				<span>03. </span>Some Things I've Built
-			</h2>
+			<Fade bottom>
+				<h2>
+					<span>03. </span>Some Things I've Built
+				</h2>
+			</Fade>
 			<section className='projects-container'>{cards}</section>
 		</main>
 	);
