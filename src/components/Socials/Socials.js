@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const Socials = () => {
 	return (
-		<Fade bottom cascade duration={500}>
+		<Fade bottom cascade>
 			<div className='Socials'>
 				<a
 					href='https://github.com/edwindelbosque'
