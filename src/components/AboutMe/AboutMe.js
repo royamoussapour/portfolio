@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 const AboutMe = () => {
 	return (
 		<main className='AboutMe' name='AboutMe'>
-			<Fade bottom cascade>
+			<Fade cascade>
 				<Fade bottom>
 					<h2>
 						<span>02. </span>About Me

@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjectCard.scss';
-import Fade from 'react-reveal/Fade';
 
 const ProjectCard = project => {
 	const {
@@ -13,7 +12,6 @@ const ProjectCard = project => {
 		image
 	} = project;
 	return (
-		<Fade>
 			<div className='ProjectCard'>
 				<a href={deployLink} target='_blank' rel='noopener noreferrer'>
 					<img src={image} alt={`Screenshot of ${title}`} />
@@ -66,7 +64,6 @@ const ProjectCard = project => {
 					</div>
 				</section>
 			</div>
-		</Fade>
 	);
 };
 

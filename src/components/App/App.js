@@ -13,10 +13,10 @@ const App = () => {
 		<>
 			<main name='Home'>
 				<NavigationBar />
-				<Fade bottom cascade>
+				<Fade cascade>
 					<section className='title-section'>
 						<p className='introduction'>Hello! ¡Hola! My name is</p>
-						<h1>React Reveal</h1>
+						<h1>Edwin Del Bosque</h1>
 						<h1 className='sub-header-title'>I build things for the web.</h1>
 						<p className='description-title'>
 							I'm a{' '}
@@ -27,16 +27,18 @@ const App = () => {
 							designing) exceptional, high-quality websites and applications.
 						</p>
 						<div>
-							<a href='mailto:edwinbosq@gmail.com' className='button-link'>
-								<button className='contact-button'>Get In Touch</button>
-							</a>
-							<a
-								href='https://drive.google.com/file/d/1A-JhDL5DjqUBydVglUiZZX-C4tBk3joC/view?usp=sharing'
-								target='_blank'
-								rel='noopener noreferrer'
-								className='button-link'>
-								<button className='contact-button'>Resume</button>
-							</a>
+							<Fade bottom cascade>
+								<a href='mailto:edwinbosq@gmail.com' className='button-link'>
+									<button className='contact-button'>Get In Touch</button>
+								</a>
+								<a
+									href='https://drive.google.com/file/d/1A-JhDL5DjqUBydVglUiZZX-C4tBk3joC/view?usp=sharing'
+									target='_blank'
+									rel='noopener noreferrer'
+									className='button-link'>
+									<button className='contact-button'>Resume</button>
+								</a>
+							</Fade>
 						</div>
 					</section>
 				</Fade>

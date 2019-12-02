@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
 	return (
-		<Fade bottom cascade>
+		<Fade cascade>
 			<main className='Contact' name='Contact'>
 				<h2>
 					<span>04. Let's Make Magic!</span>Get In Touch
