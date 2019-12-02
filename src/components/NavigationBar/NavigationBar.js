@@ -11,6 +11,10 @@ class NavigationBar extends Component {
 		};
 	}
 
+	handleScroll = () => {
+		this.setState({ isActive: false });
+	};
+
 	toggleMobileMenu = () => {
 		this.setState(prevState => ({
 			isActive: !prevState.isActive
@@ -23,6 +27,9 @@ class NavigationBar extends Component {
 
 	render() {
 		const { isActive } = this.state;
+		isActive &&
+			window.addEventListener('scroll', this.handleScroll, { passive: true });
+
 		return (
 			<>
 				<div
