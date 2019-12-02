@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './NavigationBar.scss';
 import Fade from 'react-reveal/Fade';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import Headroom from 'react-headroom';
 
 class NavigationBar extends Component {
