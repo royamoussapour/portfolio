@@ -53,7 +53,7 @@ const projects = [
 		id: 5,
 		title: 'Cowboys VS Aliens',
 		description:
-			'A game based on the TV game show Family Feud, but with an Aliens vs Cowboys twist. This was built with another three developers and we implemented Object-Oriented Proggraming classes in jQuery.',
+			'A game based on the TV game show Family Feud, but with an Aliens vs Cowboys twist. This was done in collaboration with another three developers. We also built it implementing OOP structured classes in jQuery.',
 		repoLink: 'https://github.com/edwindelbosque/Cowboys-vs-Aliens',
 		deployLink: 'https://edwindelbosque.github.io/Cowboys-vs-Aliens/',
 		image: cowboysVsAliens,

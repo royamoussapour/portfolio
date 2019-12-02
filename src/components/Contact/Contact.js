@@ -7,10 +7,10 @@ const Contact = () => {
 		<Fade cascade>
 			<main className='Contact' name='Contact'>
 				<h2>
-					<span>04. Let's Make Magic!</span>Get In Touch
+					<span>04. What's Next?</span>Get In Touch
 				</h2>
 				<p>Interested in working together?</p>
-				<p>Feel free to contact me for any project or collaboration.</p>
+				<p>I'm currently open to job opportunities and collaborations.</p>
 				<a href='mailto:edwinbosq@gmail.com' className='email-button'>
 					<svg
 						version='1.1'
