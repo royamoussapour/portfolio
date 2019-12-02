@@ -51,7 +51,7 @@ class NavigationBar extends Component {
 							<div className='logo'>
 								<p>EDWIN DEL BOSQUE</p>
 							</div>
-							<Fade top cascade delay={600}>
+							<Fade top cascade delay={600} duration={600}>
 								<ul
 									className={`navigation-ul ${isActive &&
 										'navigation-ul-active'}`}>
