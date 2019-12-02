@@ -27,7 +27,7 @@ const App = () => {
 							designing) exceptional, high-quality websites and applications.
 						</p>
 						<div>
-							<Fade bottom cascade>
+							<Fade bottom cascade delay={400}>
 								<a href='mailto:edwinbosq@gmail.com' className='button-link'>
 									<button className='contact-button'>Get In Touch</button>
 								</a>
