@@ -8,12 +8,21 @@ class NavigationBar extends Component {
 	constructor() {
 		super();
 		this.state = {
-			isActive: false
+			isActive: false,
+			isTop: true
 		};
 	}
 
+	componentDidMount = () => {
+		window.addEventListener('scroll', this.handleScroll, { passive: true });
+	};
+
 	handleScroll = () => {
 		this.setState({ isActive: false });
+		window.pageYOffset >= 70
+			? this.setState({ isTop: false })
+			: this.setState({ isTop: true });
+		console.log(this.state.isTop);
 	};
 
 	toggleMobileMenu = () => {
@@ -27,16 +36,14 @@ class NavigationBar extends Component {
 	};
 
 	render() {
-		const { isActive } = this.state;
-		isActive &&
-			window.addEventListener('scroll', this.handleScroll, { passive: true });
+		const { isActive, isTop } = this.state;
 
 		return (
 			<>
 				<div
 					className={`blur-hide ${isActive && 'blur-show'}`}
 					onClick={() => this.closeMobileMenu()}></div>
-				<div className='nav-wrapper-mobile'></div>
+				<div className={`nav-wrapper-mobile ${isTop && 'navTop'}`}></div>
 				<div className='nav-wrapper'>
 					<Headroom disableInlineStyles>
 						<Fade delay={600}>
@@ -61,7 +68,7 @@ class NavigationBar extends Component {
 											to='Home'
 											spy={true}
 											smooth={true}
-											offset={-30}
+											offset={-34}
 											ignoreCancelEvents={true}
 											duration={1200}>
 											<li onClick={() => this.closeMobileMenu()}>
