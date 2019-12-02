@@ -39,7 +39,7 @@ const AboutMe = () => {
 					<section className='skills'>
 						<ul>
 							<li>
-								<span>▹</span> JavaScript (ES6+)
+								<span>▹</span> JavaScript <span className='es6'>(ES6+)</span>
 							</li>
 							<li>
 								<span>▹</span> React & Redux

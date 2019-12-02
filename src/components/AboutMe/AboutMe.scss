@@ -25,6 +25,13 @@
 		}
 	}
 
+	.es6 {
+		font-size: 70%;
+		position: relative;
+		bottom: 1px;
+		right: 3px;
+	}
+
 	.about-box {
 		display: flex;
 		justify-content: space-between;
@@ -154,7 +161,7 @@
 		}
 
 		.about-description {
-			padding-right: 13px;
+			padding-right: 3px;
 		}
 	}
 }
