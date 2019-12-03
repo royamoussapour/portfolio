@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import './Work.scss';
 import { theme, mixins, media, Section, Heading } from '../../styles';
+import Fade from 'react-reveal/Fade';
 const { colors, fontSizes } = theme;
 
 const StyledContainer = styled(Section)`
@@ -193,69 +194,71 @@ const Work = ({ data }) => {
 
 	return (
 		<StyledContainer id='work' ref={revealContainer} name='Career'>
-			<Heading className='heading-work'>
-				<span className='number-heading'>03. </span>Career
-			</Heading>
-			<StyledTabs>
-				<StyledTabList role='tablist'>
-					{data &&
-						data.map((job, i) => {
-							const { company } = job;
-							return (
-								<li key={i}>
-									<StyledTabButton
+			<Fade cascade bottom>
+				<Heading className='heading-work'>
+					<span className='number-heading'>03. </span>Career
+				</Heading>
+				<StyledTabs>
+					<StyledTabList role='tablist'>
+						{data &&
+							data.map((job, i) => {
+								const { company } = job;
+								return (
+									<li key={i}>
+										<StyledTabButton
+											isActive={activeTabId === i}
+											onClick={() => setActiveTabId(i)}
+											role='tab'
+											aria-selected={activeTabId === i ? 'true' : 'false'}
+											aria-controls={`tab${i}`}
+											id={`tab${i}`}
+											tabIndex={activeTabId === i ? '0' : '-1'}>
+											<span>{company}</span>
+										</StyledTabButton>
+									</li>
+								);
+							})}
+						<StyledHighlight activeTabId={activeTabId} />
+					</StyledTabList>
+					<StyledContent>
+						{data &&
+							data.map((job, i) => {
+								const { title, url, company, dateRange, description } = job;
+								return (
+									<StyledTabContent
+										key={i}
 										isActive={activeTabId === i}
-										onClick={() => setActiveTabId(i)}
-										role='tab'
-										aria-selected={activeTabId === i ? 'true' : 'false'}
-										aria-controls={`tab${i}`}
-										id={`tab${i}`}
-										tabIndex={activeTabId === i ? '0' : '-1'}>
-										<span>{company}</span>
-									</StyledTabButton>
-								</li>
-							);
-						})}
-					<StyledHighlight activeTabId={activeTabId} />
-				</StyledTabList>
-				<StyledContent>
-					{data &&
-						data.map((job, i) => {
-							const { title, url, company, dateRange, description } = job;
-							return (
-								<StyledTabContent
-									key={i}
-									isActive={activeTabId === i}
-									id={`job${i}`}
-									role='tabpanel'
-									tabIndex='0'
-									aria-labelledby={`job${i}`}
-									aria-hidden={activeTabId !== i}>
-									<StyledJobTitle>
-										<span>{title}</span>
-										<StyledCompany>
-											<span>&nbsp;@&nbsp;</span>
-											<a
-												href={url}
-												target='_blank'
-												rel='nofollow noopener noreferrer'>
-												{company}
-											</a>
-										</StyledCompany>
-									</StyledJobTitle>
-									<StyledJobDetails>
-										<span>{dateRange}</span>
-										<ul>
-											{description.map(desc => (
-												<li>{desc}</li>
-											))}
-										</ul>
-									</StyledJobDetails>
-								</StyledTabContent>
-							);
-						})}
-				</StyledContent>
-			</StyledTabs>
+										id={`job${i}`}
+										role='tabpanel'
+										tabIndex='0'
+										aria-labelledby={`job${i}`}
+										aria-hidden={activeTabId !== i}>
+										<StyledJobTitle>
+											<span>{title}</span>
+											<StyledCompany>
+												<span>&nbsp;@&nbsp;</span>
+												<a
+													href={url}
+													target='_blank'
+													rel='nofollow noopener noreferrer'>
+													{company}
+												</a>
+											</StyledCompany>
+										</StyledJobTitle>
+										<StyledJobDetails>
+											<span>{dateRange}</span>
+											<ul>
+												{description.map(desc => (
+													<li>{desc}</li>
+												))}
+											</ul>
+										</StyledJobDetails>
+									</StyledTabContent>
+								);
+							})}
+					</StyledContent>
+				</StyledTabs>
+			</Fade>
 		</StyledContainer>
 	);
 };

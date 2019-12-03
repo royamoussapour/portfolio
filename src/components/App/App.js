@@ -21,12 +21,11 @@ const App = () => {
 						<h1>Edwin Del Bosque.</h1>
 						<h1 className='sub-header-title'>I build things for the web.</h1>
 						<p className='description-title'>
-							I'm a{' '}
 							<span>
-								<b>front-end engineer</b>
+								<b>Front-End Engineer</b>
 							</span>{' '}
 							based in Denver, CO specializing in building (and occasionally
-							designing) exceptional, high-quality websites and applications.
+							designing), high-quality websites and applications.
 						</p>
 						<div>
 							<Fade bottom cascade delay={400}>
