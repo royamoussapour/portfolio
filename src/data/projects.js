@@ -31,9 +31,9 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'The Overlook',
+		title: 'The Overlook Management',
 		description:
-			'A web app built to help hotel staff manage customers, bookings, bills, and room services. Heavy data manipulation with dates and booking availabilities.',
+			'A web app built to help hotel staff manage customers, bookings, bills, and room services. It was this project that I developed a passion for heavy data manipulation.',
 		repoLink: 'https://github.com/edwindelbosque/TheOverlook',
 		deployLink: 'https://edwindelbosque.github.io/TheOverlook/',
 		image: theOverlook,
