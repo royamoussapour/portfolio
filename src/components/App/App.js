@@ -21,6 +21,7 @@ const App = () => {
 						<h1>Edwin Del Bosque.</h1>
 						<h1 className='sub-header-title'>Building things for the web.</h1>
 						<p className='description-title'>
+							I'm a{' '}
 							<span>
 								<b>Front-End Engineer</b>
 							</span>{' '}
