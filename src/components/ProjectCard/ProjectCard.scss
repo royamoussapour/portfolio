@@ -19,9 +19,10 @@
 		width: 100%;
 		border-radius: 4px 4px 0 0;
 		transition: 0.2s;
+		filter: brightness(90%);
 
 		&:hover {
-			filter: brightness(90%);
+			filter: brightness(100%);
 		}
 	}
 
@@ -90,18 +91,30 @@
 		height: 50px;
 		display: flex;
 		width: 100%;
-		justify-content: flex-end;
-		padding: 20px 0;
+		justify-content: space-between;
 		padding-right: 12px;
 		background: #060e1f;
 		border-radius: 0 0 4px 4px;
-		padding-bottom: 30px;
+		padding: 20px 20px;
+
+		p {
+			position: relative;
+			bottom: 4px;
+			color: #64ffdb88;
+			font-family: 'Inconsolata';
+			font-size: 15px;
+		}
+
+		div {
+			display: flex;
+			justify-content: space-between;
+			width: 70px;
+		}
 
 		a {
 			background: green;
 			margin-bottom: 30px;
 			margin-left: 10px;
-			margin-right: 10px;
 			margin-top: -6px;
 		}
 
@@ -164,6 +177,10 @@
 		.github-hyperlinks {
 			a {
 				margin-top: -9px;
+			}
+
+			div {
+				width: 80px;
 			}
 		}
 	}

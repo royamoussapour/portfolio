@@ -7,7 +7,7 @@ const Contact = () => {
 		<Fade cascade>
 			<main className='Contact' name='Contact'>
 				<h2>
-					<span>04. What's Next?</span>Get In Touch
+					<span>04. Contact</span>Get In Touch
 				</h2>
 				<p>Interested in working together?</p>
 				<p>I'm currently open to job opportunities and collaborations.</p>
