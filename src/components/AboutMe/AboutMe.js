@@ -15,9 +15,10 @@ const AboutMe = () => {
 				<section className='about-box'>
 					<section className='about-description'>
 						<p>
-							I have a passion for developing eye-catching websites and web apps
-							that provide intuitive, pixel-perfect user interfaces with
-							efficient functionalities and modern backends.
+							I'm a 24-year-old front-end engineer, originally from California
+							who likes making often weird things with web technologies. I like
+							to design and build smart, eye-catching and pixel-perfect user
+							interfaces with robust functionalities.
 						</p>
 						<p>
 							Shortly after graduating from{' '}
