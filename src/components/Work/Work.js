@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
+import './Work.scss';
 import { theme, mixins, media, Section, Heading } from '../../styles';
 const { colors, fontSizes } = theme;
 
@@ -35,7 +36,7 @@ const StyledTabList = styled.ul`
     display: flex;
     overflow-x: scroll;
     margin-bottom: 30px;
-    width: calc(100% + 100px);
+    width: calc(100% + 96px);
     margin-left: -50px;
   `};
 	${media.phablet`
@@ -191,8 +192,10 @@ const Work = ({ data }) => {
 	const revealContainer = useRef(null);
 
 	return (
-		<StyledContainer id='work' ref={revealContainer}>
-			<Heading>Career</Heading>
+		<StyledContainer id='work' ref={revealContainer} name='Career'>
+			<Heading className='heading-work'>
+				<span className='number-heading'>03. </span>Career
+			</Heading>
 			<StyledTabs>
 				<StyledTabList role='tablist'>
 					{data &&

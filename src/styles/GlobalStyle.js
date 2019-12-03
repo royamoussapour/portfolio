@@ -94,12 +94,6 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
 
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
   body {
     margin: 0;
     width: 100%;

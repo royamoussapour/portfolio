@@ -13,7 +13,7 @@ const Projects = () => {
 		<main className='Projects'>
 			<Fade bottom>
 				<h2>
-					<span>03. </span>Some Projects
+					<span>02. </span>Some Projects
 				</h2>
 			</Fade>
 			<section className='projects-container'>{cards}</section>

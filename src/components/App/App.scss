@@ -144,6 +144,10 @@ p {
 		font-size: 50px;
 	}
 
+	body {
+		padding: 48px;
+	}
+
 	p {
 		font-size: 16px;
 	}
@@ -224,6 +228,10 @@ p {
 @media only screen and (max-width: 420px) {
 	h1 {
 		font-size: 38px;
+	}
+
+	body {
+		padding: 25px;
 	}
 
 	.introduction {

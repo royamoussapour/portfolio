@@ -1,0 +1,18 @@
+.number-heading {
+	font-family: 'Inconsolata';
+	font-size: 26px;
+	color: #64ffda;
+	margin-right: -3px;
+	padding-right: 10px;
+	padding-top: 4px;
+}
+
+.heading-work {
+	font-family: 'Poppins';
+}
+
+@media only screen and (max-width: 700px) {
+	.heading-work {
+		font-size: 35px;
+	}
+}

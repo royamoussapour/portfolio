@@ -9,7 +9,7 @@ const AboutMe = () => {
 			<Fade cascade>
 				<Fade bottom>
 					<h2>
-						<span>02. </span>About Me
+						<span>01. </span>About Me
 					</h2>
 				</Fade>
 				<section className='about-box'>

@@ -64,25 +64,14 @@ class NavigationBar extends Component {
 											'navigation-ul-active'}`}>
 										<Link
 											activeClass='active-scroll'
-											to='Home'
-											spy={true}
-											smooth={true}
-											offset={-34}
-											ignoreCancelEvents={true}
-											duration={1200}>
-											<li onClick={() => this.closeMobileMenu()}>
-												<span>01.</span>Home
-											</li>
-										</Link>
-										<Link
 											to='AboutMe'
 											spy={true}
 											smooth={true}
-											offset={60}
+											offset={90}
 											ignoreCancelEvents={true}
 											duration={1200}>
 											<li onClick={() => this.closeMobileMenu()}>
-												<span>02.</span>About
+												<span>01.</span>About
 											</li>
 										</Link>
 										<Link
@@ -93,7 +82,18 @@ class NavigationBar extends Component {
 											ignoreCancelEvents={true}
 											duration={1200}>
 											<li onClick={() => this.closeMobileMenu()}>
-												<span>03.</span>Projects
+												<span>02.</span>Projects
+											</li>
+										</Link>
+										<Link
+											to='Career'
+											spy={true}
+											smooth={true}
+											offset={0}
+											ignoreCancelEvents={true}
+											duration={1200}>
+											<li onClick={() => this.closeMobileMenu()}>
+												<span>03.</span>Career
 											</li>
 										</Link>
 										<Link
