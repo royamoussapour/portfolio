@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.2a85bd44.chunk.css",
+    "main.css": "./static/css/main.1906095b.chunk.css",
     "main.js": "./static/js/main.81393a3c.chunk.js",
     "main.js.map": "./static/js/main.81393a3c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c6822cd3.js",
@@ -8,9 +8,9 @@
     "static/js/2.10e80b6a.chunk.js": "./static/js/2.10e80b6a.chunk.js",
     "static/js/2.10e80b6a.chunk.js.map": "./static/js/2.10e80b6a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.262ff36df67f7e4bbc44679b96e1f7dc.js": "./precache-manifest.262ff36df67f7e4bbc44679b96e1f7dc.js",
+    "precache-manifest.0a182a4fb9c257f63525cd7dcbc6943e.js": "./precache-manifest.0a182a4fb9c257f63525cd7dcbc6943e.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.2a85bd44.chunk.css.map": "./static/css/main.2a85bd44.chunk.css.map",
+    "static/css/main.1906095b.chunk.css.map": "./static/css/main.1906095b.chunk.css.map",
     "static/media/artworked.jpg": "./static/media/artworked.3419b340.jpg",
     "static/media/cowboysVsAliens.jpg": "./static/media/cowboysVsAliens.26fd57ac.jpg",
     "static/media/headshot.jpg": "./static/media/headshot.d28d827d.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6822cd3.js",
     "static/js/2.10e80b6a.chunk.js",
-    "static/css/main.2a85bd44.chunk.css",
+    "static/css/main.1906095b.chunk.css",
     "static/js/main.81393a3c.chunk.js"
   ]
 }
