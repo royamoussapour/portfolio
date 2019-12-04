@@ -7,13 +7,12 @@ const AboutMe = () => {
 	return (
 		<main className='AboutMe' name='AboutMe'>
 			<Fade cascade>
-				<Fade bottom>
-					<h2>
-						<span>01. </span>About Me
-					</h2>
-				</Fade>
+				<Fade bottom></Fade>
 				<section className='about-box'>
 					<section className='about-description'>
+						<h2>
+							<span>01. </span>About Me
+						</h2>
 						<p>
 							I'm a 24-year-old front-end engineer, originally from California
 							who has a passion for building and experimenting with different
