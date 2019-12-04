@@ -45,7 +45,7 @@ class NavigationBar extends Component {
 				<div className={`nav-wrapper-mobile ${isTop && 'navTop'}`}></div>
 				<div className='nav-wrapper'>
 					<Headroom disableInlineStyles>
-						<Fade delay={600}>
+						<Fade>
 							<nav>
 								<div
 									className={`hamburger-menu ${isActive &&
@@ -58,7 +58,7 @@ class NavigationBar extends Component {
 								<div className='logo'>
 									<p>EDWIN DEL BOSQUE</p>
 								</div>
-								<Fade top cascade delay={600}>
+								<Fade top cascade delay={300}>
 									<ul
 										className={`navigation-ul ${isActive &&
 											'navigation-ul-active'}`}>

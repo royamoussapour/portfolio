@@ -15,7 +15,7 @@ const App = () => {
 		<>
 			<main name='Home'>
 				<NavigationBar />
-				<Fade cascade>
+				<Fade cascade delay={600}>
 					<section className='title-section'>
 						<p className='introduction'>Hello! ¡Hola! My name is</p>
 						<h1>Edwin Del Bosque.</h1>
@@ -29,7 +29,7 @@ const App = () => {
 							designing), high-quality websites and applications.
 						</p>
 						<div>
-							<Fade bottom cascade delay={400}>
+							<Fade bottom cascade delay={800}>
 								<a href='mailto:edwinbosq@gmail.com' className='button-link'>
 									<button className='contact-button'>Get In Touch</button>
 								</a>
