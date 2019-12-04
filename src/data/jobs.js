@@ -1,6 +1,6 @@
 const jobs = [
 	{
-		id: 1,
+		id: 0,
 		title: 'Front-End Engineering Student',
 		company: 'Turing School',
 		location: 'Denver, CO',
@@ -13,7 +13,7 @@ const jobs = [
 		]
 	},
 	{
-		id: 2,
+		id: 1,
 		title: 'FP&A Junior Financial Analyst',
 		company: 'Zayo',
 		location: 'Denver, CO',
@@ -25,7 +25,7 @@ const jobs = [
 		]
 	},
 	{
-		id: 3,
+		id: 2,
 		title: 'Spanish Tutor',
 		company: 'Regis University',
 		location: 'Denver, CO',
@@ -36,7 +36,7 @@ const jobs = [
 		]
 	},
 	{
-		id: 4,
+		id: 3,
 		title: 'Transfer Pricing Intern',
 		company: 'Deloitte',
 		location: 'Baja, CA',
