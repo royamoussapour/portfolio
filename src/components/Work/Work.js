@@ -222,17 +222,17 @@ const Work = ({ data }) => {
 					</StyledTabList>
 					<StyledContent>
 						{data &&
-							data.map((job, i) => {
-								const { title, url, company, dateRange, description } = job;
+							data.map(job => {
+								const { title, url, company, dateRange, description, id } = job;
 								return (
 									<StyledTabContent
-										key={i}
-										isActive={activeTabId === i}
-										id={`job${i}`}
+										key={id}
+										isActive={activeTabId === id}
+										id={`job${id}`}
 										role='tabpanel'
 										tabIndex='0'
-										aria-labelledby={`job${i}`}
-										aria-hidden={activeTabId !== i}>
+										aria-labelledby={`job${id}`}
+										aria-hidden={activeTabId !== id}>
 										<StyledJobTitle>
 											<span>{title}</span>
 											<StyledCompany>
@@ -248,8 +248,8 @@ const Work = ({ data }) => {
 										<StyledJobDetails>
 											<span>{dateRange}</span>
 											<ul>
-												{description.map(desc => (
-													<li>{desc}</li>
+												{description.map((desc, index) => (
+													<li key={index}>{desc}</li>
 												))}
 											</ul>
 										</StyledJobDetails>
