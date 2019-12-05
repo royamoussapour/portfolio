@@ -10,7 +10,7 @@ const Contact = () => {
 					<span>04. Contact</span>Get In Touch
 				</h2>
 				<p>
-					I'm currently open and actively looking for job opportunities and
+					I'm open and actively looking for job opportunities and
 					collaborations.
 				</p>
 				<a href='mailto:edwinbosq@gmail.com' className='email-button'>

@@ -136,6 +136,12 @@ const StyledTabContent = styled.div`
 	top: 0;
 	left: 0;
 	width: 100%;
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		outline: none;
+	}
 	height: auto;
 	opacity: ${props => (props.isActive ? 1 : 0)};
 	z-index: ${props => (props.isActive ? 2 : -1)};

@@ -25,7 +25,7 @@ const App = () => {
 							<span>
 								<b>Front-End Engineer</b>
 							</span>{' '}
-							based in Denver, CO specializing in building (and occasionally
+							based in Denver, CO specialized in building (and occasionally
 							designing), high-quality websites and applications.
 						</p>
 						<div>

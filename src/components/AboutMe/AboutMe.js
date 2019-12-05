@@ -14,7 +14,7 @@ const AboutMe = () => {
 							<span>01. </span>About Me
 						</h2>
 						<p>
-							I'm a 24-year-old front-end engineer, originally from California
+							I'm a 24-year-old front-end engineer, originally from California,
 							who has a passion for building and experimenting with different
 							web technologies. I like to design and build smart, eye-catching
 							and pixel-perfect user interfaces with robust functionalities.
