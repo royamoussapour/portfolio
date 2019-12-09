@@ -11,7 +11,8 @@ const ProjectCard = project => {
 		repoLink,
 		deployLink,
 		weekDuration,
-		image
+		image,
+		role
 	} = project;
 	return (
 		<Fade duration={500}>
@@ -25,7 +26,9 @@ const ProjectCard = project => {
 							<span>{title}</span>{' '}
 						</a>
 					</h3>
-					<p className='overlap'>{description}</p>
+					<p className='overlap'>
+						<span>{role}</span> <br /> {description}
+					</p>
 					<section className='tech'>
 						<ul>
 							{technologies1.map((tech, index) => (

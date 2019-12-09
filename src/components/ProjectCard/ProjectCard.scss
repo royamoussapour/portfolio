@@ -85,6 +85,13 @@
 		width: 100%;
 		text-align: left;
 		right: 220px;
+
+		span {
+			color: #64ffda;
+			font-family: 'Inconsolata';
+			display: inline-block;
+			margin-bottom: 10px;
+		}
 	}
 
 	.github-hyperlinks {

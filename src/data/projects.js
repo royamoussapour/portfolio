@@ -13,6 +13,7 @@ const projects = [
 		repoLink: 'https://github.com/edwindelbosque/the-screening-room',
 		deployLink: 'https://the-screening-room.herokuapp.com',
 		image: theScreeningRoom,
+		role: 'Full-Stack Engineer / UI Designer',
 		weekDuration: 3,
 		technologies1: ['React', 'Redux', 'Router', 'Jest & Enzyme'],
 		technologies2: ['Node.js', 'Express', 'PostgreSQL', 'TheMovieDB API']
@@ -25,6 +26,7 @@ const projects = [
 		repoLink: 'https://github.com/edwindelbosque/artworked',
 		deployLink: 'https://edwindelbosque.github.io/artworked/',
 		image: artworked,
+		role: 'Front-End Engineer / UI Designer',
 		weekDuration: 1,
 		technologies1: ['React', 'Redux', 'Router'],
 		technologies2: ['Sketch', 'iTunes API', 'Jest & Enzyme']
@@ -37,21 +39,10 @@ const projects = [
 		repoLink: 'https://github.com/edwindelbosque/TheOverlook',
 		deployLink: 'https://edwindelbosque.github.io/TheOverlook/',
 		image: theOverlook,
+		role: 'Front-End Engineer',
 		weekDuration: 1,
 		technologies1: ['jQuery', 'SCSS', 'HTML5', 'Webpack'],
 		technologies2: ['Mocha', 'Chai', 'Spies', 'Sketch']
-	},
-	{
-		id: 4,
-		title: 'Noted.',
-		description:
-			'A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.',
-		repoLink: 'https://github.com/edwindelbosque/Noted',
-		deployLink: 'https://edwindelbosque.github.io/Noted/',
-		image: noted,
-		weekDuration: 1,
-		technologies1: ['HTML5', 'CSS'],
-		technologies2: ['Vanilla JS', 'localStorage']
 	},
 	{
 		id: 5,
@@ -61,9 +52,23 @@ const projects = [
 		repoLink: 'https://github.com/edwindelbosque/Cowboys-vs-Aliens',
 		deployLink: 'https://edwindelbosque.github.io/Cowboys-vs-Aliens/',
 		image: cowboysVsAliens,
+		role: 'Front-End Engineer / UI Designer',
 		weekDuration: 2,
 		technologies1: ['jQuery', 'SCSS', 'Mocha', 'Chai'],
 		technologies2: ['Spies', 'API', 'Skecth']
+	},
+	{
+		id: 4,
+		title: 'Noted.',
+		description:
+			'A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.',
+		repoLink: 'https://github.com/edwindelbosque/Noted',
+		deployLink: 'https://edwindelbosque.github.io/Noted/',
+		image: noted,
+		role: 'Front-End Engineer / UI Designer',
+		weekDuration: 1,
+		technologies1: ['HTML5', 'CSS'],
+		technologies2: ['Vanilla JS', 'localStorage']
 	}
 ];
 
