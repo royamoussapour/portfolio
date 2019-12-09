@@ -8,6 +8,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
+	height: 0px;
 	right: 0;
 	z-index: 10;
 }
@@ -41,7 +42,8 @@
 	position: fixed;
 	top: -100px;
 	left: 0;
-	background: #021e44;
+	background: #021e44bd;
+	backdrop-filter: blur(10px);
 	z-index: 3;
 	transition: 0.3s ease-in-out;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.199);
@@ -66,7 +68,7 @@
 	padding: 20px 0;
 	height: 0px;
 	padding-top: 50px;
-	background: #021e44;
+	background: #021e449f;
 	transition: 0.3s ease-in-out;
 	padding-right: 60px;
 	width: 100%;
@@ -180,7 +182,7 @@
 		flex-direction: column;
 		height: 100vh;
 		min-height: 400px;
-		background: #21385a;
+		background: #21385aec;
 		padding-bottom: 120px;
 		padding-left: 17%;
 
@@ -220,7 +222,7 @@
 	}
 
 	.blur-show {
-		backdrop-filter: blur(6px);
+		backdrop-filter: blur(8px);
 		backface-visibility: hidden;
 		z-index: 3;
 		transition: 0.3s ease-in-out;
