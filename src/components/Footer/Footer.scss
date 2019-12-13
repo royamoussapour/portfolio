@@ -9,6 +9,16 @@
 	align-items: center;
 	cursor: default;
 
+	a {
+		color: #64ffdb85;
+		text-decoration: none;
+		transition: 0.2s;
+
+		&:hover {
+			color: rgba(255, 47, 82, 0.685);
+		}
+	}
+
 	p {
 		font-family: 'Inconsolata';
 		font-size: 15px;
