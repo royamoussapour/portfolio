@@ -3,10 +3,24 @@ import cowboysVsAliens from '../assets/cowboysVsAliens.jpg';
 import artworked from '../assets/artworked.jpg';
 import noted from '../assets/noted.jpg';
 import theOverlook from '../assets/theOverlook.jpg';
+import picasso from '../assets/picasso.jpg';
 
 const projects = [
 	{
 		id: 1,
+		title: 'Picasso | Smart Color Picker (in development)',
+		description:
+			'A full-stack web app color picker with back-end and front-end built from the ground up in collaboration with Matt Malone (Full-Stack Dev). Heavy RESTful API development design. 90% testing coverage on the back-end. Create an account or login to create and save your smartly fetched color palettes that actually look good!',
+		repoLink: 'https://github.com/edwindelbosque/picasso-fe',
+		deployLink: 'http://colorsbypicasso.herokuapp.com',
+		image: picasso,
+		role: 'Full-Stack Engineer / UI Designer',
+		weekDuration: 'In development - 2',
+		technologies1: ['React', 'Hooks', 'Knex', 'Travis CI'],
+		technologies2: ['Node.js', 'Express', 'PostgreSQL', 'Jest']
+	},
+	{
+		id: 2,
 		title: 'The Screening Room',
 		description:
 			'A simplified movie hub. Search for movies or discover new ones. Watch trailers, ratings, summaries, and more. If you like a movie create an account or login to add it to your watchlist and come back to them wherever you are, on any device.',
@@ -19,7 +33,7 @@ const projects = [
 		technologies2: ['Node.js', 'Express', 'PostgreSQL', 'TheMovieDB API']
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Artworked',
 		description:
 			'I built this app to solve my own personal problem finding good quality artworks for my music library. Artworked allows you to search and download all iTunes artworks in their original quality. As a last minute extra, it also plays previews.',
@@ -32,7 +46,7 @@ const projects = [
 		technologies2: ['Sketch', 'iTunes API', 'Jest & Enzyme']
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'The Overlook Management',
 		description:
 			'A web app built to help hotel staff manage customers, bookings, bills, and room services. It was this project that I developed a passion for heavy data manipulation.',
@@ -58,7 +72,7 @@ const projects = [
 		technologies2: ['Spies', 'API', 'Skecth']
 	},
 	{
-		id: 4,
+		id: 6,
 		title: 'Noted.',
 		description:
 			'A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.',
