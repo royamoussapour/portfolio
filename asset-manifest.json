@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "./static/css/main.62ecb273.chunk.css",
-    "main.js": "./static/js/main.3ee0b9d9.chunk.js",
-    "main.js.map": "./static/js/main.3ee0b9d9.chunk.js.map",
+    "main.js": "./static/js/main.b8e53aac.chunk.js",
+    "main.js.map": "./static/js/main.b8e53aac.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c6822cd3.js",
     "runtime-main.js.map": "./static/js/runtime-main.c6822cd3.js.map",
-    "static/js/2.7c982e8f.chunk.js": "./static/js/2.7c982e8f.chunk.js",
-    "static/js/2.7c982e8f.chunk.js.map": "./static/js/2.7c982e8f.chunk.js.map",
+    "static/js/2.c9d518c1.chunk.js": "./static/js/2.c9d518c1.chunk.js",
+    "static/js/2.c9d518c1.chunk.js.map": "./static/js/2.c9d518c1.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.40697f7accc345ef2d5aaf8005fc7640.js": "./precache-manifest.40697f7accc345ef2d5aaf8005fc7640.js",
+    "precache-manifest.d2857c438bbec98dfb64166f75b84d07.js": "./precache-manifest.d2857c438bbec98dfb64166f75b84d07.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.62ecb273.chunk.css.map": "./static/css/main.62ecb273.chunk.css.map",
     "static/media/artworked.jpg": "./static/media/artworked.3419b340.jpg",
     "static/media/cowboysVsAliens.jpg": "./static/media/cowboysVsAliens.26fd57ac.jpg",
     "static/media/headshot.jpg": "./static/media/headshot.d28d827d.jpg",
     "static/media/noted.jpg": "./static/media/noted.93a187fa.jpg",
+    "static/media/picasso.jpg": "./static/media/picasso.e1e43131.jpg",
     "static/media/theOverlook.jpg": "./static/media/theOverlook.632c1f13.jpg",
     "static/media/theScreeningRoom.jpg": "./static/media/theScreeningRoom.b8d3ddf9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6822cd3.js",
-    "static/js/2.7c982e8f.chunk.js",
+    "static/js/2.c9d518c1.chunk.js",
     "static/css/main.62ecb273.chunk.css",
-    "static/js/main.3ee0b9d9.chunk.js"
+    "static/js/main.b8e53aac.chunk.js"
   ]
 }
