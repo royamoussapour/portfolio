@@ -7,7 +7,7 @@ const Footer = () => {
 			<p>
 				Based in{' '}
 				<a
-					href='https://brittanychiang.com'
+					href='https://github.com/bchiang7/'
 					target='_blank'
 					rel='noopener noreferrer'>
 					Brittany C
