@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.62ecb273.chunk.css",
-    "main.js": "./static/js/main.162f2a55.chunk.js",
-    "main.js.map": "./static/js/main.162f2a55.chunk.js.map",
+    "main.css": "./static/css/main.6dc0a5a6.chunk.css",
+    "main.js": "./static/js/main.f029229e.chunk.js",
+    "main.js.map": "./static/js/main.f029229e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c6822cd3.js",
     "runtime-main.js.map": "./static/js/runtime-main.c6822cd3.js.map",
     "static/js/2.c9d518c1.chunk.js": "./static/js/2.c9d518c1.chunk.js",
     "static/js/2.c9d518c1.chunk.js.map": "./static/js/2.c9d518c1.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.e5dfaa96b13b4f12d9582c2db57e129b.js": "./precache-manifest.e5dfaa96b13b4f12d9582c2db57e129b.js",
+    "precache-manifest.77b0b6158ce7af84cb83c118bd631fe5.js": "./precache-manifest.77b0b6158ce7af84cb83c118bd631fe5.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.62ecb273.chunk.css.map": "./static/css/main.62ecb273.chunk.css.map",
+    "static/css/main.6dc0a5a6.chunk.css.map": "./static/css/main.6dc0a5a6.chunk.css.map",
     "static/media/artworked.jpg": "./static/media/artworked.3419b340.jpg",
     "static/media/cowboysVsAliens.jpg": "./static/media/cowboysVsAliens.26fd57ac.jpg",
     "static/media/headshot.jpg": "./static/media/headshot.346c20f7.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6822cd3.js",
     "static/js/2.c9d518c1.chunk.js",
-    "static/css/main.62ecb273.chunk.css",
-    "static/js/main.162f2a55.chunk.js"
+    "static/css/main.6dc0a5a6.chunk.css",
+    "static/js/main.f029229e.chunk.js"
   ]
 }
