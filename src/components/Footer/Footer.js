@@ -5,14 +5,14 @@ const Footer = () => {
 	return (
 		<footer className='Footer' name='Footer'>
 			<p>
-				Based in{' '}
+				Inspired by{' '}
 				<a
 					href='https://github.com/bchiang7/'
 					target='_blank'
 					rel='noopener noreferrer'>
 					Brittany C
 				</a>
-				's Design | Built by Edwin.
+				's Design | Built by Edwin
 			</p>
 		</footer>
 	);
