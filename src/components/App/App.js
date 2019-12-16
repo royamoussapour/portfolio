@@ -16,7 +16,6 @@ const App = () => {
 			<main name='Home'>
 				<NavigationBar />
 				<Home />
-				<div className='orb'></div>
 			</main>
 			<AboutMe />
 			<Projects />
