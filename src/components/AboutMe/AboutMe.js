@@ -28,7 +28,8 @@ const AboutMe = () => {
 								className='hyperlink'>
 								Regis University
 							</a>
-							, I joined the Front-End Engineering program at{' '}
+							, I joined the intensive (and extensive) Front-End Engineering
+							program at{' '}
 							<a
 								href='https://turing.io'
 								target='_blank'
@@ -36,8 +37,9 @@ const AboutMe = () => {
 								className='hyperlink'>
 								Turing School of Software & Design{' '}
 							</a>{' '}
-							where I worked on a wide variety of interesting and meaningful
-							projects on a daily basis.
+							where I worked on fast-paced, multicultural teams for 8 months on
+							a wide palette of frameworks and languages in projects that pushed
+							myself on a daily basis.
 						</p>
 						<p>Here are a few technologies I've been working with recently:</p>
 						<section className='skills'>
