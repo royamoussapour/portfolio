@@ -7,9 +7,9 @@ const jobs = [
 		dateRange: 'April 2019 - Jan 2020',
 		url: 'https://turing.io',
 		description: [
-			'Learned to build responsive layouts, write clean, refactored vanilla JavaScript and React that utilizes heavy data manipulation, DOM manipulation, OOP concepts, and TDD.',
-			'Adopted efficient workflows and worked with teams learning to communicate in a technical manner to improve the development processes of more complex applications.',
-			'Built robust, scalable, and fully-tested applications with frameworks and libraries, as well as diving into asynchronous JavaScript, and consuming and creating RESTful APIs.'
+			'Collaborated in fast-paced, cross-functional teams for more than 60 hours a week for 9 months building a variety of interesting and meaningful projects.',
+			'Built robust, scalable, and fully-tested applications with mainly front-end tools and some back-end technologies.',
+			'Gained experience building responsive layouts, writing clean, refactored JavaScript ES6+ and libraries and frameworks such as React, utilizing heavy data manipulation, DOM manipulation, OOP concepts and Test-Driven Development.'
 		]
 	},
 	{
@@ -43,8 +43,7 @@ const jobs = [
 		dateRange: 'Jun 2017 - Aug 2017',
 		url: 'https://deloitte.com',
 		description: [
-			'Learned about the different business models in different industries and corporate tax regulations.',
-			'Performed benchmarking and economic analyses for transactions between subsidiaries.'
+			'Assisted in the research and development of pinning down market price ranges between subsidized transactions in accordance to the tax regulations of the state of Baja California.'
 		]
 	}
 ];
