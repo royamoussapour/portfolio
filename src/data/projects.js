@@ -10,7 +10,7 @@ const projects = [
 		id: 1,
 		title: 'Picasso | Smart Color Palettes (beta)',
 		description:
-			'A full-stack web app color palette picker with back-end and front-end built from the ground up in collaboration with Matt Malone (Full-Stack Dev). Heavy RESTful API development design. 90% testing coverage on the back-end. Create an account or login to create and save your smartly fetched color palettes that actually look good!',
+			'A full-stack web app color palette picker with back-end and front-end built from the ground up in collaboration with another developer. Heavy RESTful API development design. 90% testing coverage on the back-end. Create an account or login to create and save your smartly fetched color palettes that actually look good!',
 		repoLink: 'https://github.com/edwindelbosque/picasso-fe',
 		deployLink: 'http://colorsbypicasso.herokuapp.com',
 		image: picasso,
