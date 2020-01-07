@@ -4,6 +4,7 @@ import artworked from '../assets/artworked.jpg';
 import noted from '../assets/noted.jpg';
 import theOverlook from '../assets/theOverlook.jpg';
 import picasso from '../assets/picasso.jpg';
+import communityConnect from '../assets/communityConnect.jpg';
 
 const projects = [
 	{
@@ -34,6 +35,21 @@ const projects = [
 	},
 	{
 		id: 3,
+		title: 'Community Connect Colorado',
+		description:
+			'A React Native mobile application where you can find all of the resources that are available to you in the state of Colorado.',
+		repoLink:
+			'https://github.com/Turing-MOD4-Cross-Pollination/front-end-help-yourself',
+		deployLink:
+			'https://github.com/Turing-MOD4-Cross-Pollination/front-end-help-yourself',
+		image: communityConnect,
+		role: 'Front-End Engineer / UI Designer',
+		weekDuration: 3,
+		technologies1: ['React', 'Native', 'Jest', 'Enzyme'],
+		technologies2: ['Expo', 'Sketch', 'Redux']
+	},
+	{
+		id: 4,
 		title: 'Artworked | iTunes Artwork Finder',
 		description:
 			'I built this app to solve my own personal problem finding good quality artworks for my music library. Artworked allows you to search and download all iTunes artworks in their original quality. As a last minute extra, it also plays previews.',
@@ -46,7 +62,7 @@ const projects = [
 		technologies2: ['Sketch', 'iTunes API', 'Jest & Enzyme']
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'The Overlook | Hotel Management',
 		description:
 			'A web app built to help hotel staff manage customers, bookings, bills, and room services. It was this project that I developed a passion for heavy data manipulation.',
@@ -59,7 +75,7 @@ const projects = [
 		technologies2: ['Mocha', 'Chai', 'Spies', 'Sketch']
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Cowboys VS Aliens | Web Game',
 		description:
 			'A game based on the TV game show Family Feud, but with an Aliens vs Cowboys twist. This was done in collaboration with another three developers. We also built it implementing OOP structured classes in jQuery.',
@@ -72,7 +88,7 @@ const projects = [
 		technologies2: ['Spies', 'API', 'Skecth']
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Noted. | To-Do List App',
 		description:
 			'A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.',
