@@ -14,10 +14,11 @@ const AboutMe = () => {
 							<span>01. </span>About Me
 						</h2>
 						<p>
-							I'm a 24-year-old front-end engineer, originally from California,
-							who has a passion for building and experimenting with different
-							web technologies. I like to design and build smart, eye-catching
-							and pixel-perfect user interfaces with robust functionalities.
+							I'm a 24-year-old finance graduate and front-end engineer,
+							originally from California, who has a passion for building and
+							experimenting with different web technologies. I like to design
+							and build smart, eye-catching and pixel-perfect user interfaces
+							with robust functionalities.
 						</p>
 						<p>
 							Shortly after graduating from{' '}
@@ -37,9 +38,9 @@ const AboutMe = () => {
 								className='hyperlink'>
 								Turing School of Software & Design{' '}
 							</a>{' '}
-							where I worked on fast-paced, multicultural teams for 8 months on
-							a wide palette of frameworks and languages in projects that pushed
-							myself on a daily basis.
+							where I worked on fast-paced, cross-functional teams for 8 months
+							on a wide palette of projects using different frameworks and
+							languages that pushed myself everyday.
 						</p>
 						<p>Here are a few technologies I've been working with recently:</p>
 						<section className='skills'>
