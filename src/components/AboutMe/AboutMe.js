@@ -63,10 +63,10 @@ const AboutMe = () => {
 									<span>▹</span> Node.js
 								</li>
 								<li>
-									<span>▹</span> Express
+									<span>▹</span> PostgreSQL
 								</li>
 								<li>
-									<span>▹</span> PostgreSQL
+									<span>▹</span> React Native
 								</li>
 								<li>
 									<span>▹</span> Jest & Enzyme
