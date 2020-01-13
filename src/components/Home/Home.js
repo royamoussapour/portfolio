@@ -3,12 +3,16 @@ import './Home.scss';
 import Fade from 'react-reveal/Fade';
 
 const Home = () => {
+	const name = 'Edwin Del Bosque';
+	const resumeUrl =
+		'https://drive.google.com/file/d/1chASHFpluX-qjsR6V6qEodo6sGGXQqAU/view';
+
 	return (
 		<>
 			<Fade cascade delay={600}>
 				<section className='title-section'>
 					<p className='introduction'>Hello! ¡Hola! My name is</p>
-					<h1>Edwin Del Bosque.</h1>
+					<h1>{name}.</h1>
 					<h1 className='sub-header-title'>Building things for the web.</h1>
 					<p className='description-title'>
 						I'm a{' '}
@@ -25,7 +29,7 @@ const Home = () => {
 								<button className='contact-button'>Get In Touch</button>
 							</a>
 							<a
-								href='https://drive.google.com/file/d/1vEM8J6iY6GSkeWwI75u4RKJkmavw-XmO/view?usp=sharing'
+								href={resumeUrl}
 								target='_blank'
 								rel='noopener noreferrer'
 								className='button-link'>
