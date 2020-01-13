@@ -86,19 +86,6 @@ const projects = [
 		weekDuration: 2,
 		technologies1: ['jQuery', 'SCSS', 'Mocha', 'Chai'],
 		technologies2: ['Spies', 'API', 'Skecth']
-	},
-	{
-		id: 7,
-		title: 'Noted. | To-Do List App',
-		description:
-			'A vanilla JS to-do list web app. Create to-do lists and mark them as important so you can then filter them and search for to-do lists. The to-do lists are saved via localStorage. Optimized for all devices.',
-		repoLink: 'https://github.com/edwindelbosque/Noted',
-		deployLink: 'https://edwindelbosque.github.io/Noted/',
-		image: noted,
-		role: 'Front-End Engineer / UI Designer',
-		weekDuration: 1,
-		technologies1: ['HTML5', 'CSS'],
-		technologies2: ['Vanilla JS', 'localStorage']
 	}
 ];
 
