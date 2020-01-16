@@ -159,7 +159,7 @@ const StyledTabContent = styled.div`
 		li {
 			position: relative;
 			padding-left: 20px;
-			font-family: 'Inconsolata';
+			font-family: 'Overpass';
 			margin-bottom: 10px;
 			&:before {
 				content: '▹';

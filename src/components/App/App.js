@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import AboutMe from '../AboutMe/AboutMe';
 import Socials from '../Socials/Socials';

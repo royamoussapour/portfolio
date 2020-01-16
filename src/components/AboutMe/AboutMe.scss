@@ -14,7 +14,7 @@
 	h2 {
 		color: rgba(255, 255, 255, 0.932);
 		margin-bottom: 5px;
-		font-family: 'Roboto';
+		font-family: 'Overpass';
 		font-size: 32px;
 		position: relative;
 		top: -24px;
@@ -24,8 +24,8 @@
 		transition: 0.3s ease-in-out;
 
 		span {
-			font-family: 'Inconsolata';
-			font-size: 26px;
+			font-family: 'Overpass Mono';
+			font-size: 23px;
 			color: #64ffda;
 			margin-right: -3px;
 		}
@@ -62,7 +62,7 @@
 		font-weight: 400;
 		font-size: 17px;
 		width: 100%;
-		font-family: 'Roboto';
+		font-family: 'Overpass';
 		color: #e4f3ff;
 		line-height: 1.6;
 		margin-bottom: 20px;
@@ -106,7 +106,8 @@
 	li {
 		list-style-type: none;
 		line-height: 1.8;
-		font-family: 'Inconsolata';
+		font-family: 'Overpass Mono';
+		font-size: 14px;
 		color: #c9dae4;
 
 		span {

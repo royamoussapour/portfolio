@@ -8,7 +8,7 @@ import communityConnect from '../assets/communityConnect.jpg';
 const projects = [
 	{
 		id: 1,
-		title: 'Picasso | Smart Color Palettes (beta)',
+		title: 'Picasso - Smart Color Palettes (beta)',
 		description:
 			'A full-stack web app color palette picker with back-end and front-end built from the ground up in collaboration with another developer. Heavy RESTful API development design. 90% testing coverage on the back-end. Create an account or login to create and save your smartly fetched color palettes that actually look good!',
 		repoLink: 'https://github.com/edwindelbosque/picasso-fe',
@@ -21,7 +21,7 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: 'The Screening Room | Movie Hub',
+		title: 'The Screening Room - Movie Hub',
 		description:
 			'A simplified movie hub. Search for movies or discover new ones. Watch trailers, ratings, summaries, and more. If you like a movie create an account or login to add it to your watchlist and come back to them wherever you are, on any device.',
 		repoLink: 'https://github.com/edwindelbosque/the-screening-room',
@@ -49,7 +49,7 @@ const projects = [
 	},
 	{
 		id: 4,
-		title: 'Artworked | iTunes Artwork Finder',
+		title: 'Artworked - iTunes Artwork Finder',
 		description:
 			'I built this app to solve my own personal problem finding good quality artworks for my music library. Artworked allows you to search and download all iTunes artworks in their original quality. As a last minute extra, it also plays previews.',
 		repoLink: 'https://github.com/edwindelbosque/artworked',
@@ -62,7 +62,7 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: 'The Overlook | Hotel Management',
+		title: 'The Overlook - Hotel Management',
 		description:
 			'A web app built to help hotel staff manage customers, bookings, bills, and room services. It was this project that I developed a passion for heavy data manipulation.',
 		repoLink: 'https://github.com/edwindelbosque/TheOverlook',
@@ -75,7 +75,7 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: 'Cowboys VS Aliens | Web Game',
+		title: 'Cowboys VS Aliens - Web Game',
 		description:
 			'A game based on the TV game show Family Feud, but with an Aliens vs Cowboys twist. This was done in collaboration with another three developers. We also built it implementing OOP structured classes in jQuery.',
 		repoLink: 'https://github.com/edwindelbosque/Cowboys-vs-Aliens',

@@ -78,8 +78,8 @@
 		list-style: none;
 		cursor: pointer;
 		margin: 18px 0 46px 20px;
-		font-size: 17px;
-		font-family: 'Inconsolata';
+		font-size: 15px;
+		font-family: 'Overpass Mono';
 		transition: 0.15s;
 		padding: 5px 10px;
 		padding-bottom: 3px;
@@ -88,7 +88,7 @@
 
 		span {
 			margin-right: 8px;
-			font-size: 15px;
+			font-size: 12px;
 			color: #64ffda;
 		}
 
@@ -134,14 +134,14 @@
 
 .logo p {
 	color: rgb(255, 255, 255);
-	font-family: 'Inconsolata';
+	font-family: 'Overpass Mono';
 	position: absolute;
 	top: 8px;
 	cursor: default;
-	font-size: 12px;
+	font-size: 10px;
 	left: 62px;
 	width: 80px;
-	letter-spacing: 7px;
+	letter-spacing: 6px;
 	line-height: 18px;
 	position: fixed;
 }
@@ -154,10 +154,9 @@
 
 	.logo p {
 		color: rgb(204, 211, 224);
-		font-family: 'Inconsolata';
 		position: absolute;
 		top: 8px;
-		font-size: 12px;
+		font-size: 10px;
 		left: 82px;
 		width: 80px;
 		letter-spacing: 7px;
@@ -187,7 +186,7 @@
 		padding-left: 17%;
 
 		li {
-			font-size: 20px;
+			font-size: 18px;
 			width: 100px;
 			display: flex;
 			flex-direction: column;
@@ -196,13 +195,13 @@
 			color: rgb(195, 209, 226);
 			list-style: none;
 			margin: 0px;
-			margin-bottom: 20px;
+			margin-bottom: 30px;
 
 			span {
 				margin-right: 0px;
-				font-size: 17px;
+				font-size: 15px;
 				margin-left: 5px;
-				margin-bottom: 3px;
+				margin-bottom: 5px;
 			}
 		}
 	}
@@ -261,11 +260,10 @@
 	.logo p {
 		position: absolute;
 		color: white;
-		font-family: 'Inconsolata';
 		position: absolute;
 		top: 13px;
 		left: 40px;
-		font-size: 10px;
+		font-size: 8px;
 		width: 80px;
 		letter-spacing: 6px;
 		line-height: 15px;
@@ -309,11 +307,10 @@
 	.logo p {
 		position: absolute;
 		color: white;
-		font-family: 'Inconsolata';
 		position: absolute;
 		top: 13px;
 		left: 23px;
-		font-size: 10px;
+		font-size: 8px;
 		width: 80px;
 		letter-spacing: 6px;
 		line-height: 15px;

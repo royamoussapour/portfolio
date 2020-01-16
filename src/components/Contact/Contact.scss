@@ -10,7 +10,7 @@
 
 	h2 {
 		margin-bottom: 70px;
-		font-family: 'Roboto';
+		font-family: 'Overpass';
 		font-size: 50px;
 		position: relative;
 		display: flex;
@@ -22,20 +22,20 @@
 		transition: 0.3s ease-in-out;
 
 		span {
-			font-family: 'Inconsolata';
-			font-size: 17px;
+			font-family: 'Overpass Mono';
+			font-size: 15px;
 			color: #64ffda;
 			margin-bottom: 20px;
 		}
 	}
 
 	p {
-		width: 550px;
+		width: 500px;
 		margin-top: 0px;
 		text-align: center;
 		margin-top: -8px;
-		font-family: 'Inconsolata';
-		font-size: 22px;
+		font-family: 'Overpass Mono';
+		font-size: 18px;
 		transition: 0.3s ease-in-out;
 	}
 
@@ -136,7 +136,7 @@
 	.Contact {
 		min-height: 440px;
 		p {
-			font-size: 16px;
+			font-size: 13px;
 			width: 320px;
 		}
 
@@ -144,8 +144,7 @@
 			font-size: 36px;
 
 			span {
-				font-family: 'Inconsolata';
-				font-size: 14px;
+				font-size: 12px;
 				margin-bottom: 10px;
 			}
 		}

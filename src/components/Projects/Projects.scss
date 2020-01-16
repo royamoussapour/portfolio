@@ -1,6 +1,5 @@
 .Projects {
 	width: 100%;
-	// max-width: 950px;
 	min-height: 750px;
 	padding: 70px 0 170px 0;
 	display: flex;
@@ -11,15 +10,15 @@
 	h2 {
 		color: rgba(255, 255, 255, 0.932);
 		margin-bottom: 5px;
-		font-family: 'Roboto';
+		font-family: 'Overpass';
 		font-size: 30px;
 		position: relative;
 		top: 23px;
 		padding-right: 15px;
 
 		span {
-			font-family: 'Inconsolata';
-			font-size: 24px;
+			font-family: 'Overpass Mono';
+			font-size: 22px;
 			color: #64ffda;
 			margin-right: -3px;
 		}
