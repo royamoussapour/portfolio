@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Home = () => {
 	const name = 'Edwin Del Bosque';
 	const resumeUrl =
-		'https://drive.google.com/file/d/1chASHFpluX-qjsR6V6qEodo6sGGXQqAU/view';
+		'https://drive.google.com/file/d/12sU1DRchtoAVYqw034NR1Hk29DpGBVtn/view';
 
 	return (
 		<>
