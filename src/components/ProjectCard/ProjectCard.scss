@@ -8,7 +8,7 @@
 	justify-content: space-between;
 	background: #2d344157;
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.24);
-	transition: 0.3s ease-in-out;
+	transition: all 200ms ease-out;
 
 	a {
 		text-decoration: none;
@@ -18,7 +18,7 @@
 	img {
 		width: 100%;
 		border-radius: 4px 4px 0 0;
-		transition: 0.2s;
+		transition: all 200ms ease-out;
 		filter: brightness(90%);
 
 		&:hover {
@@ -69,7 +69,7 @@
 
 		span {
 			cursor: pointer;
-			transition: 0.25s;
+			transition: all 200ms ease-out;
 
 			&:hover {
 				color: #fe3e55;

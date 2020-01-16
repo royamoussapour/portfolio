@@ -12,7 +12,7 @@
 	a {
 		color: #64ffdb85;
 		text-decoration: none;
-		transition: 0.2s;
+		transition: all 200ms ease-out;
 
 		&:hover {
 			color: rgba(255, 47, 82, 0.685);

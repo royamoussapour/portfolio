@@ -22,7 +22,7 @@ h1 {
 	margin-bottom: 10px;
 	margin-left: 2px;
 	font-family: 'Overpass Mono';
-	transition: 0.3s ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 p {
@@ -30,7 +30,7 @@ p {
 	font-weight: 300;
 	color: rgb(255, 255, 255);
 	margin-bottom: 10px;
-	transition: 0.3s ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .description-title {
@@ -40,12 +40,12 @@ p {
 	line-height: 1.6;
 	font-family: 'Overpass';
 	max-width: 540px;
-	transition: 0.3s ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .sub-header-title {
 	color: rgba(255, 255, 255, 0.5);
-	transition: 0.3s ease-in-out;
+	transition: all 200ms ease-out
 }
 
 .contact-button {
@@ -59,7 +59,7 @@ p {
 	padding: 18px 30px;
 	background: rgba(0, 0, 0, 0);
 	margin-top: 60px;
-	transition: 0.2s ease-in-out;
+	transition: all 200ms ease-out
 
 	&:focus {
 		outline: none;
@@ -216,7 +216,7 @@ p {
 		background: rgba(0, 0, 0, 0);
 		margin-top: 50px;
 		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.242);
-		transition: 0.2s ease-in-out;
+		transition: all 200ms ease-out;
 	}
 }
 

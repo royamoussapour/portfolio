@@ -21,7 +21,7 @@
 		width: 100%;
 		display: inline-block;
 		padding-right: 15px;
-		transition: 0.3s ease-in-out;
+		transition: all 200ms ease-out;
 
 		span {
 			font-family: 'Overpass Mono';
@@ -50,7 +50,7 @@
 		color: #64ffda;
 		border-radius: 2px;
 		padding: 2px 2px;
-		transition: 0.2s ease-in-out;
+		transition: all 200ms ease-out;
 
 		&:hover {
 			color: #64ffda;
@@ -66,13 +66,13 @@
 		color: #e4f3ff;
 		line-height: 1.6;
 		margin-bottom: 20px;
-		transition: 0.3s ease-in-out;
+		transition: all 200ms ease-out;
 	}
 
 	img {
 		width: 300px;
 		border-radius: 3px;
-		transition: 0.3s ease-in-out;
+		transition: all 200ms ease-out;
 		margin-right: 40px;
 		margin-top: 105px;
 		animation-name: floating;

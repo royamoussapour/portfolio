@@ -19,7 +19,7 @@
 		top: 23px;
 		padding-right: 15px;
 		color: white;
-		transition: 0.3s ease-in-out;
+		transition: all 200ms ease-out;
 
 		span {
 			font-family: 'Overpass Mono';
@@ -36,7 +36,7 @@
 		margin-top: -8px;
 		font-family: 'Overpass Mono';
 		font-size: 18px;
-		transition: 0.3s ease-in-out;
+		transition: all 200ms ease-out;
 	}
 
 	svg {
@@ -47,7 +47,7 @@
 
 	.email-button {
 		margin-top: 50px;
-		transition: 0.25s;
+		transition: all 200ms ease-out;
 	}
 
 	a {
@@ -59,7 +59,7 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 100%;
-		transition: 0.25s;
+		transition: all 200ms ease-out;
 		box-shadow: 0 0 15px #ff3e5425;
 
 		&:hover {
@@ -74,7 +74,7 @@
 
 	.st0 {
 		fill: black;
-		transition: 0.25s;
+		transition: all 200ms ease-out;
 	}
 }
 
@@ -100,7 +100,7 @@
 			justify-content: center;
 			align-items: center;
 			border-radius: 100%;
-			transition: 0.25s;
+			transition: all 200ms ease-out;
 			box-shadow: 0 0 15px #ff3e5425;
 
 			&:hover {
@@ -114,7 +114,7 @@
 		}
 		.st0 {
 			fill: #64ffda;
-			transition: 0.25s;
+			transition: all 200ms ease-out;
 		}
 	}
 }

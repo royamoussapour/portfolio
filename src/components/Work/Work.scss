@@ -37,7 +37,7 @@ h1 {
 
 .sub-header-title {
 	color: rgba(255, 255, 255, 0.5);
-	transition: 0.3s ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .contact-button {
@@ -51,7 +51,7 @@ h1 {
 	padding: 18px 30px;
 	background: rgba(0, 0, 0, 0);
 	margin-top: 60px;
-	transition: 0.2s ease-in-out;
+	transition: all 200ms ease-out;
 
 	&:focus {
 		outline: none;
