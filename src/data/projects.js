@@ -1,7 +1,6 @@
 import theScreeningRoom from '../assets/theScreeningRoom.jpg';
 import cowboysVsAliens from '../assets/cowboysVsAliens.jpg';
 import artworked from '../assets/artworked.jpg';
-import noted from '../assets/noted.jpg';
 import theOverlook from '../assets/theOverlook.jpg';
 import picasso from '../assets/picasso.jpg';
 import communityConnect from '../assets/communityConnect.jpg';
