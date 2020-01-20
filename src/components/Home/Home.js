@@ -19,7 +19,7 @@ const Home = () => {
 						<span>
 							<b>Front-End Engineer</b>
 						</span>{' '}
-						and UI design enthusiast based in Denver, CO (and open to new
+						and UI design enthusiast based in Denver, CO (but open to new
 						adventures!) My areas of expertise are JavaScript ES6+, UX/UI
 						Design, and TDD.
 					</p>
