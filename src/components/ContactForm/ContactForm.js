@@ -18,7 +18,7 @@ class ContactForm extends Component {
 				onSubmit={this.submitForm}
 				action='https://formspree.io/mpzdzbnw'
 				method='POST'>
-				<label>Full Name:</label>
+				<label>Name:</label>
 				<input type='text' name='name' />
 				<label>Email:</label>
 				<input type='email' name='email' />
