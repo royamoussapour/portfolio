@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 import Fade from 'react-reveal/Fade';
+import ContactForm from '../ContactForm/ContactForm';
 
 const Contact = () => {
 	return (
@@ -13,7 +14,7 @@ const Contact = () => {
 					I'm open and actively looking for job opportunities and
 					collaborations.
 				</p>
-				<a href='mailto:edwinbosq@gmail.com' className='email-button'>
+				{/* <a href='mailto:edwinbosq@gmail.com' className='email-button'>
 					<svg
 						version='1.1'
 						xmlns='http://www.w3.org/2000/svg'
@@ -32,7 +33,8 @@ const Contact = () => {
             71.8979492,71.6699219 145.6552734,137.7138672 	'></polygon>
 						</g>
 					</svg>
-				</a>
+				</a> */}
+				<ContactForm />
 			</main>
 		</Fade>
 	);
