@@ -46,3 +46,13 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 430px) {
+	.Footer {
+		height: 102px;
+
+		p {
+			margin-top: 50px;
+		}
+	}
+}

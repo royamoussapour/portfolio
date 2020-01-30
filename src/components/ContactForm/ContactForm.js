@@ -1,42 +1,16 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './ContactForm.scss';
 import Fade from 'react-reveal/Fade';
 
-class ContactForm extends Component {
-	constructor(props) {
-		super(props);
-		this.submitForm = this.submitForm.bind(this);
-		this.state = {
-			status: ''
-		};
-	}
+const ContactForm = props => {
+	const [status, updateStatus] = useState('');
+	const [name, updateName] = useState('');
+	const [email, updateEmail] = useState('');
+	const [message, updateMessage] = useState('');
 
-	render() {
-		const { status } = this.state;
-		return (
-			<Fade bottom distance='60px'>
-				<form
-					className='ContactForm'
-					onSubmit={this.submitForm}
-					action='https://formspree.io/mpzdzbnw'
-					method='POST'>
-					<label>Name:</label>
-					<input type='text' name='name' />
-					<label>Email:</label>
-					<input type='email' name='email' />
-					<label className='message'>Message:</label>
-					<h4>Hello Edwin,</h4>
-					<textarea type='text' name='message'></textarea>
-					{status === 'SUCCESS' ? <p>Thanks!</p> : <button>Send</button>}
-					{status === 'ERROR' && <p>Ooops! There was an error.</p>}
-				</form>
-			</Fade>
-		);
-	}
-
-	submitForm(ev) {
-		ev.preventDefault();
-		const form = ev.target;
+	const submitForm = event => {
+		event.preventDefault();
+		const form = event.target;
 		const data = new FormData(form);
 		const xhr = new XMLHttpRequest();
 		xhr.open(form.method, form.action);
@@ -45,13 +19,51 @@ class ContactForm extends Component {
 			if (xhr.readyState !== XMLHttpRequest.DONE) return;
 			if (xhr.status === 200) {
 				form.reset();
-				this.setState({ status: 'SUCCESS' });
+				updateStatus('SUCCESS');
 			} else {
-				this.setState({ status: 'ERROR' });
+				updateStatus('ERROR');
 			}
 		};
 		xhr.send(data);
-	}
-}
+	};
+
+	return (
+		<Fade bottom distance='60px'>
+			<form
+				className='ContactForm'
+				onSubmit={submitForm}
+				action={'https://formspree.io/mpzdzbnw'}
+				method={'POST'}>
+				<label>Name:</label>
+				<input
+					type='text'
+					name='name'
+					onChange={e => updateName(e.target.value)}
+					value={name}
+				/>
+				<label>Email:</label>
+				<input
+					type='email'
+					name='email'
+					onChange={e => updateEmail(e.target.value)}
+					value={email}
+				/>
+				<label className='message'>Message:</label>
+				<h4>Hello Edwin,</h4>
+				<textarea
+					type='text'
+					name='message'
+					onChange={e => updateMessage(e.target.value)}
+					value={message}></textarea>
+				{status === 'SUCCESS' ? (
+					<p>Thanks!</p>
+				) : (
+					<button disabled={!name || !email || !message}>Send Message</button>
+				)}
+				{status === 'ERROR' && <p>Ooops! There was an error.</p>}
+			</form>
+		</Fade>
+	);
+};
 
 export default ContactForm;

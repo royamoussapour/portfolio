@@ -8,7 +8,8 @@
 	box-shadow: 0 5px 30px -16px rgba(0, 0, 0, 0.548);
 	position: relative;
 	top: 70px;
-	z-index: 10;
+	z-index: 1;
+	height: 448px;
 
 	label {
 		width: 100%;
@@ -76,7 +77,7 @@
 		font-size: 16px;
 		cursor: pointer;
 		padding: 10px 40px;
-		width: 40%;
+		width: 60%;
 		background: rgba(0, 0, 0, 0);
 		margin-top: 10px;
 		transition: all 200ms ease-out;
@@ -113,6 +114,15 @@
 		&:focus {
 			outline: none;
 			border: 1px solid #64ffdbc4;
+		}
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.ContactForm {
+		input,
+		textarea {
+			width: 300px;
 		}
 	}
 }

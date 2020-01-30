@@ -8,8 +8,7 @@ const jobs = [
 		url: 'https://turing.io',
 		description: [
 			'Collaborated in fast-paced, cross-functional teams for more than 60 hours a week for 9 months building a variety of interesting and meaningful projects.',
-			'Built robust, scalable, and fully-tested applications with mainly front-end tools and some back-end technologies.',
-			'Gained experience building responsive layouts, writing clean, refactored JavaScript ES6+ and libraries and frameworks such as React, utilizing heavy data manipulation, DOM manipulation, OOP concepts and Test-Driven Development.'
+			'Built robust, scalable, and fully-tested applications with mainly front-end tools and some back-end technologies.'
 		]
 	},
 	{
