@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ContactForm.scss';
+import Fade from 'react-reveal/Fade';
 
 class ContactForm extends Component {
 	constructor(props) {
@@ -13,21 +14,23 @@ class ContactForm extends Component {
 	render() {
 		const { status } = this.state;
 		return (
-			<form
-				className='ContactForm'
-				onSubmit={this.submitForm}
-				action='https://formspree.io/mpzdzbnw'
-				method='POST'>
-				<label>Name:</label>
-				<input type='text' name='name' />
-				<label>Email:</label>
-				<input type='email' name='email' />
-				<label className='message'>Message:</label>
-				<h4>Hello Edwin,</h4>
-				<textarea type='text' name='message'></textarea>
-				{status === 'SUCCESS' ? <p>Thanks!</p> : <button>Send</button>}
-				{status === 'ERROR' && <p>Ooops! There was an error.</p>}
-			</form>
+			<Fade bottom distance='60px'>
+				<form
+					className='ContactForm'
+					onSubmit={this.submitForm}
+					action='https://formspree.io/mpzdzbnw'
+					method='POST'>
+					<label>Name:</label>
+					<input type='text' name='name' />
+					<label>Email:</label>
+					<input type='email' name='email' />
+					<label className='message'>Message:</label>
+					<h4>Hello Edwin,</h4>
+					<textarea type='text' name='message'></textarea>
+					{status === 'SUCCESS' ? <p>Thanks!</p> : <button>Send</button>}
+					{status === 'ERROR' && <p>Ooops! There was an error.</p>}
+				</form>
+			</Fade>
 		);
 	}
 
