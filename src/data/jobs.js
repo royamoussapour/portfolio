@@ -1,6 +1,15 @@
 const jobs = [
 	{
 		id: 0,
+		title: 'Software Engineering Apprentice',
+		company: 'McKinsey & Company',
+		location: 'Denver, CO',
+		dateRange: 'Feb 2020 - Present',
+		url: 'https://mckinsey.com',
+		description: []
+	},
+	{
+		id: 1,
 		title: 'Front-End Engineering Student',
 		company: 'Turing School',
 		location: 'Denver, CO',
@@ -12,7 +21,7 @@ const jobs = [
 		]
 	},
 	{
-		id: 1,
+		id: 2,
 		title: 'FP&A Junior Financial Analyst',
 		company: 'Zayo',
 		location: 'Denver, CO',
@@ -24,7 +33,7 @@ const jobs = [
 		]
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Spanish Tutor',
 		company: 'Regis University',
 		location: 'Denver, CO',
@@ -35,7 +44,7 @@ const jobs = [
 		]
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Transfer Pricing Intern',
 		company: 'Deloitte',
 		location: 'Baja, CA',

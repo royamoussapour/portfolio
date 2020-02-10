@@ -14,11 +14,19 @@ const AboutMe = () => {
 							<span>01. </span>About Me
 						</h2>
 						<p>
-							I'm a 24-year-old finance graduate and front-end engineer,
-							originally from California, who has a passion for building and
-							experimenting with different web technologies. I like to design
-							and build smart, eye-catching and pixel-perfect user interfaces
-							with robust functionalities.
+							I'm a finance graduate and front-end engineer originally from
+							California currently working as a Software Engineering Apprentice
+							at{' '}
+							<a
+								href='https://mckinsey.com'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='hyperlink'>
+								McKinsey & Company
+							</a>{' '}
+							with a passion for building and experimenting with different web
+							technologies. I like to design and build smart, eye-catching and
+							pixel-perfect user interfaces with robust functionalities.
 						</p>
 						<p>
 							Shortly after graduating from{' '}
@@ -29,8 +37,7 @@ const AboutMe = () => {
 								className='hyperlink'>
 								Regis University
 							</a>
-							, I joined the intensive (and extensive) Front-End Engineering
-							program at{' '}
+							, I joined the intensive Front-End Engineering program at{' '}
 							<a
 								href='https://turing.io'
 								target='_blank'
@@ -39,8 +46,7 @@ const AboutMe = () => {
 								Turing School of Software & Design{' '}
 							</a>{' '}
 							where I worked on fast-paced, cross-functional teams for 8 months
-							on a wide palette of projects using different frameworks and
-							languages that pushed myself everyday.
+							on a wide array of projects using different languages and tools.
 						</p>
 						<p>Here are a few technologies I've been working with recently:</p>
 						<section className='skills'>

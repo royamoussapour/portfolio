@@ -11,8 +11,8 @@ const Contact = () => {
 					<span>04. Contact</span>Get In Touch
 				</h2>
 				<p>
-					I'm open and actively looking for job opportunities and
-					collaborations.
+					Although I'm currently not looking for job opportunities, my inbox is
+					always open!
 				</p>
 				<ContactForm />
 			</main>

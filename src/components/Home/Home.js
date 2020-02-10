@@ -19,9 +19,8 @@ const Home = () => {
 						<span>
 							<b>Front-End Engineer</b>
 						</span>{' '}
-						and UI design enthusiast based in Denver, CO (but open to new
-						adventures!) My areas of expertise are JavaScript ES6+, UX/UI
-						Design, and TDD.
+						and UI design enthusiast based in Denver, CO. My areas of expertise
+						lie in JavaScript ES6+, UX/UI Design, and Test-Driven Development.
 					</p>
 					<div>
 						<Fade bottom cascade delay={800}>
