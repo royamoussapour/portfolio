@@ -22,8 +22,8 @@ const jobs = [
 	},
 	{
 		id: 2,
-		title: 'FP&A Junior Financial Analyst',
-		company: 'Zayo',
+		title: 'Junior FP&A Financial Analyst Intern',
+		company: 'Zayo Group',
 		location: 'Denver, CO',
 		dateRange: 'June 2018 - June 2019',
 		url: 'https://zayo.com',
