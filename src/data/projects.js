@@ -17,7 +17,7 @@ const projects = [
     role: "Front-End Engineer",
     weekDuration: 1,
     technologies1: ["Gatsby", "SCSS", "Here API"],
-    technologies2: ["LoopBack4", "Data Management"],
+    technologies2: ["LoopBack4", "SEO", "Data management"],
   },
   {
     id: 4,
