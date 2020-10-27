@@ -15,7 +15,7 @@ const projects = [
     deployLink: "https://covid-small-business.mckinsey.com/en/overview/",
     image: smbSite,
     role: "Front-End Engineer",
-    weekDuration: 11,
+    weekDuration: 12,
     technologies1: ["Gatsby", "SCSS", "Localization"],
     technologies2: ["LoopBack4", "SEO", "Data management"],
   },
