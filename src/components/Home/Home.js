@@ -17,10 +17,11 @@ const Home = () => {
           <p className="description-title">
             I'm a{" "}
             <span>
-              <b>Front-End Engineer</b>
+              <b>Software Engineer</b>
             </span>{" "}
-            and UI design enthusiast based in Denver, CO. My areas of expertise
-            lie in JavaScript ES6+, UX/UI Design, and Test-Driven Development.
+            specialized in front-end technologies and UI design enthusiast based
+            in Denver, CO. My areas of expertise are client-side work, UX/UI
+            design, and test-driven development.
           </p>
           <div>
             <Fade bottom cascade delay={800}>
