@@ -16,7 +16,7 @@ const projects = [
     image: smbSite,
     role: "Front-End Engineer",
     weekDuration: 1,
-    technologies1: ["Gatsby", "SCSS", "Here API"],
+    technologies1: ["Gatsby", "SCSS", "Localization"],
     technologies2: ["LoopBack4", "SEO", "Data management"],
   },
   {
