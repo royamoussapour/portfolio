@@ -36,7 +36,7 @@ const AboutMe = () => {
                 className="hyperlink"
               >
                 Bowdoin College
-              </a>
+              </a>{" "}
               with a degree in physics and education, I worked at{" "}
               <a
                 href="https://compasslexecon.com"
