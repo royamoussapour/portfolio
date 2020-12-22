@@ -16,7 +16,7 @@ const AboutMe = () => {
             <p>
               I'm a master's student at MIT, where I am a mixed-methods researcher at the{" "}
               <a
-                href="https://tsl.mit.edu"
+                href="http://tsl.mit.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
