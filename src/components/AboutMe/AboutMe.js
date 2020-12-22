@@ -14,48 +14,46 @@ const AboutMe = () => {
               <span>01. </span>About Me
             </h2>
             <p>
-              I'm a finance graduate and front-end engineer originally from
-              California currently working as a Software Engineering Apprentice
-              at{" "}
+              I'm a master's student at MIT, where I am a mixed-methods researcher at the{" "}
               <a
-                href="https://mckinsey.com"
+                href="https://tsl.mit.edu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
               >
-                McKinsey & Company
+                Teaching Systems Lab
               </a>{" "}
-              with a passion for building and experimenting with different web
-              technologies. I like to design and build smart, eye-catching and
-              pixel-perfect user interfaces with robust functionalities.
+              . At the Teaching Systems Lab, I design and research the future of 
+              teacher learning. My work is interdisciplinary and holds equity and access 
+              at the center.
             </p>
             <p>
-              Shortly after graduating from{" "}
+              After graduating from{" "}
               <a
-                href="https://regis.edu"
+                href="https://bowdoin.edu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
               >
-                Regis University
+                Bowdoin College
               </a>
-              , I joined the intensive Front-End Engineering program at{" "}
+              with a degree in physics and education, I worked at{" "}
               <a
-                href="https://turing.io"
+                href="https://compasslexecon.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
               >
-                Turing School of Software & Design{" "}
+                Compass Lexecon{" "}
               </a>{" "}
-              where I worked on fast-paced, cross-functional teams for 8 months
-              on a wide array of projects using different languages and tools.
+              where I worked on data analysis and visualization in 
+              regulatory and litigation matters.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
             <section className="skills">
               <ul>
                 <li>
-                  <span>▹</span> JavaScript <span className="es6">(ES6+)</span>
+                  <span>▹</span> R</span>
                 </li>
                 <li>
                   <span>▹</span> React & Redux
