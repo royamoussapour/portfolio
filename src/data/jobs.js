@@ -9,7 +9,7 @@ const jobs = [
     description: [
       "Collaborate on a program delivering simulation-based learning opportunities to public school math teachers.",
       "Co-design simulations based on teachers' needs.",
-      "Design and implement survey measures, interview protocols, and research practices for collection and analysis of qualitative and quantitative data",
+      "Design and implement survey measures, interview protocols, and research practices for collection and analysis of qualitative and quantitative data.",
     ],
   },
   {
