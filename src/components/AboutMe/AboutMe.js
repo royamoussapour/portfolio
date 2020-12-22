@@ -22,7 +22,7 @@ const AboutMe = () => {
                 className="hyperlink"
               >
                 Teaching Systems Lab
-              </a>{" "}
+              </a>
               . At the Teaching Systems Lab, I design and research the future of 
               teacher learning. My work is interdisciplinary and holds equity and access 
               at its center.
