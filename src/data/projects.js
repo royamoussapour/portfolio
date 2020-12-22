@@ -1,91 +1,62 @@
-import theScreeningRoom from "../assets/theScreeningRoom.jpg";
-import cowboysVsAliens from "../assets/cowboysVsAliens.jpg";
-import artworked from "../assets/artworked.jpg";
-import smbSite from "../assets/smb-site.png";
-import picasso from "../assets/picasso.jpg";
-import communityConnect from "../assets/communityConnect.jpg";
+import schoolprivacybadge from "../assets/schoolprivacybadge.jpg";
+import studentsearchservice from "../assets/studentsearchservice.jpg";
+import educatorguide from "../assets/educatorguide.jpg";
+import bikelanes from "../assets/bikelanes.jpg";
+
 
 const projects = [
   {
-    id: 5,
-    title: "SMB Small-Business COVID-19 Resources",
+    id: 4,
+    title: "School Privacy Badge",
     description:
-      "Built a site from scratch that offers city-specific resources and procedures to help small and medium businesses that were impacted by COVID-19.",
-    repoLink: "https://covid-small-business.mckinsey.com/en/overview/",
-    deployLink: "https://covid-small-business.mckinsey.com/en/overview/",
-    image: smbSite,
-    role: "Front-End Engineer",
-    weekDuration: 12,
+      "I led a team of three to create the School Privacy Badge, a prototype designed to help schools protect student data privacy in their schools. Researched and designed as part of Harvard's T522 course: Innovation by Design: Projects in Educational Technology.",
+    repoLink: "",
+    deployLink: "https://bit.ly/SchoolPrivacyBadge",
+    image: schoolprivacybadge,
+    role: "UX Researcher / Designer",
+    weekDuration: 10,
+    technologies1: ["Notability", "Adobe XD"],
+    technologies2: [],
+  },
+  {
+    id: 3,
+    title: "The Right to Your Data",
+    description:
+      "For my thesis, I am researching the collection and analysis of educational data by standardized testing and college admissions organizations such as the College Board and the ACT. I hope to determine equity implications for programs such as the Student Search Service providing students with personalized college recommendations while helping colleges engage in predatory marketing schemes.",
+     repoLink: "",
+     deployLink: "",
+    image: studentsearchservice,
+    role: "Researcher",
+    weekDuration: 26,
     technologies1: [],
     technologies2: [],
   },
   {
-    id: 4,
-    title: "Artworked - iTunes Artwork Finder",
+    id: 2,
+    title: "Teachable Classifier Educator Guide",
     description:
-      "I built this app to solve my own personal problem finding good quality artworks for my music library. Artworked allows you to search and download all iTunes artworks in their original quality. As a last minute extra, it also plays previews.",
-    repoLink: "https://github.com/edwindelbosque/artworked",
-    deployLink: "https://edwindelbosque.github.io/artworked/",
-    image: artworked,
-    role: "Front-End Engineer / UI Designer",
-    weekDuration: 1,
-    technologies1: ["React", "Redux", "Router"],
-    technologies2: ["Sketch", "iTunes API", "Jest & Enzyme"],
+      "I developed an educator guide to be used alongside the Teachable Classifier plugin for Scratch. I designed the guide to incorporate discussions about what works and doesn't work within the Teachable Classifier plugin in order to spark conversations about algorithmic bias and facial recognition.",
+    repoLink: "",
+    deployLink: "https://docs.google.com/presentation/d/17Vq1dse3DUgdOlzo75TEpsqQuYJnm5m2PCalP0fBOpE/edit?usp=sharing",
+    image: educatorguide,
+    role: "Learning Experience Designer",
+    weekDuration: "6",
+    technologies1: ["Scratch", "Google Drive"],
+    technologies2: [],
   },
   {
     id: 1,
-    title: "Picasso - Smart Color Palettes (beta)",
+    title: "Bike Safety in Boston: A Policy Proposal",
     description:
-      "A full-stack web app color palette picker with back-end and front-end built from the ground up in collaboration with another developer. Heavy RESTful API development design. 90% testing coverage on the back-end. Create an account or login to create and save your smartly fetched color palettes that actually look good!",
-    repoLink: "https://github.com/edwindelbosque/picasso-fe",
-    deployLink: "http://colorsbypicasso.herokuapp.com",
-    image: picasso,
-    role: "Full-Stack Engineer / UI Designer",
-    weekDuration: "Ongoing 3",
-    technologies1: ["React", "Hooks", "Knex", "Travis CI"],
-    technologies2: ["Node.js", "Express", "PostgreSQL", "Jest"],
-  },
-  {
-    id: 2,
-    title: "The Screening Room - Movie Hub",
-    description:
-      "A simplified movie hub. Search for movies or discover new ones. Watch trailers, ratings, summaries, and more. If you like a movie create an account or login to add it to your watchlist and come back to them wherever you are, on any device.",
-    repoLink: "https://github.com/edwindelbosque/the-screening-room",
-    deployLink: "https://the-screening-room.herokuapp.com",
-    image: theScreeningRoom,
-    role: "Full-Stack Engineer / UI Designer",
+      "I collaborated with a classmate on a policy proposal around increasing bike lanes in Boston suggesting the creation of bike lanes in areas with high density of crashes and low density of bike lanes, especially in areas that are near Bluebikes stations without access to bike lanes.",
+    repoLink: "",
+    deployLink: "https://docs.google.com/presentation/d/1hFjpB3UqRTP0-owJUyEZbH83deY0w7xZiSYH8jcRQ3E/edit?usp=sharing",
+    image: bikelanes,
+    role: "Data Analyst",
     weekDuration: 3,
-    technologies1: ["React", "Redux", "Router", "Jest & Enzyme"],
-    technologies2: ["Node.js", "Express", "PostgreSQL", "TheMovieDB API"],
-  },
-  {
-    id: 3,
-    title: "Community Connect Colorado",
-    description:
-      "A React Native mobile application where you can find all of the resources that are available to you in the state of Colorado.",
-    repoLink:
-      "https://github.com/Turing-MOD4-Cross-Pollination/front-end-help-yourself",
-    deployLink:
-      "https://github.com/Turing-MOD4-Cross-Pollination/front-end-help-yourself",
-    image: communityConnect,
-    role: "Front-End Engineer / UI Designer",
-    weekDuration: 3,
-    technologies1: ["React", "Native", "Jest", "Enzyme"],
-    technologies2: ["Expo", "Sketch", "Redux"],
-  },
-  {
-    id: 6,
-    title: "Cowboys VS Aliens - Web Game",
-    description:
-      "A game based on the TV game show Family Feud, but with an Aliens vs Cowboys twist. This was done in collaboration with another three developers. We also built it implementing OOP structured classes in jQuery.",
-    repoLink: "https://github.com/edwindelbosque/Cowboys-vs-Aliens",
-    deployLink: "https://edwindelbosque.github.io/Cowboys-vs-Aliens/",
-    image: cowboysVsAliens,
-    role: "Front-End Engineer / UI Designer",
-    weekDuration: 2,
-    technologies1: ["jQuery", "SCSS", "Mocha", "Chai"],
-    technologies2: ["Spies", "API", "Skecth"],
-  },
+    technologies1: ["Tableau", "ArcGIS", "R"],
+    technologies2: [],
+  }
 ];
 
 export default projects;

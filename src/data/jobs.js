@@ -26,6 +26,18 @@ const jobs = [
   },
   {
     id: 2,
+    title: "Summer Consultant",
+    company: "Bates White Economic Consulting",
+    location: "Washington, D.C.",
+    dateRange: "June 2016 - August 2016",
+    url: "https://www.bateswhite.com/",
+    description: [
+      "Researched pharmaceutical marketing methods and regulation around pharmaceutical marketing.",
+      "Processed and analyzed data in order to create data visualizations summarizing trends in pharmaceutical prescribing of blood pressure medications."
+    ],
+  },
+  {
+    id: 3,
     title: "Research Intern",
     company: "NASA Marshall Space Flight Center",
     location: "Huntsville, AL",
@@ -36,7 +48,7 @@ const jobs = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Gibbons Summer Research Fellow",
     company: "Bowdoin College",
     location: "Brunswick, ME",

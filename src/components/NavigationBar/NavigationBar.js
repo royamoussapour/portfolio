@@ -26,7 +26,7 @@ const NavigationBar = () => {
 								<div className='bar-3'></div>
 							</div>
 							<div className='logo'>
-								<p>EDWIN DEL BOSQUE</p>
+								<p>ROYA MOUSSAPOUR</p>
 							</div>
 							<Fade top cascade delay={300}>
 								<ul
