@@ -53,36 +53,36 @@ const AboutMe = () => {
             <section className="skills">
               <ul>
                 <li>
-                  <span>▹</span> R</span>
+                  <span>▹</span> R 
                 </li>
                 <li>
-                  <span>▹</span> React & Redux
+                  <span>▹</span> Tableau
                 </li>
                 <li>
-                  <span>▹</span> Angular 7+
+                  <span>▹</span> Stata
                 </li>
                 <li>
-                  <span>▹</span> Chai & Mocha
+                  <span>▹</span> SAS
                 </li>
               </ul>
               <ul>
                 <li>
-                  <span>▹</span> Node.js
+                  <span>▹</span> Adobe XD
                 </li>
                 <li>
-                  <span>▹</span> PostgreSQL
+                  <span>▹</span> ATLAS.ti
                 </li>
                 <li>
-                  <span>▹</span> .NET Core
+                  <span>▹</span> NVivo
                 </li>
                 <li>
-                  <span>▹</span> Jest & Enzyme
+                  <span>▹</span> ArcGIS
                 </li>
               </ul>
             </section>
           </section>
           <section>
-            <img src={headshot} alt="Headshot of Edwin" />
+            <img src={headshot} alt="Headshot of Roya" />
           </section>
         </section>
       </Fade>
