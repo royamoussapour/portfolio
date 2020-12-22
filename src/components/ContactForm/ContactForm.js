@@ -32,7 +32,7 @@ const ContactForm = props => {
 			<form
 				className='ContactForm'
 				onSubmit={submitForm}
-				action={'https://formspree.io/mpzdzbnw'}
+				action={'https://formspree.io/f/mbjppdqd'}
 				method={'POST'}>
 				<label>Name:</label>
 				<input
@@ -49,7 +49,7 @@ const ContactForm = props => {
 					value={email}
 				/>
 				<label className='message'>Message:</label>
-				<h4>Hello Edwin,</h4>
+				<h4>Hi Roya,</h4>
 				<textarea
 					type='text'
 					name='message'

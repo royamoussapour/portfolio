@@ -7,7 +7,7 @@ const Socials = () => {
 		<Fade bottom cascade>
 			<div className='Socials'>
 				<a
-					href='https://github.com/edwindelbosque'
+					href='https://github.com/royamoussapour'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<svg
@@ -19,7 +19,7 @@ const Socials = () => {
 					</svg>
 				</a>
 				<a
-					href='https://linkedin.com/in/edwindelbosque'
+					href='https://linkedin.com/in/royamoussapour'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<svg
@@ -31,7 +31,7 @@ const Socials = () => {
 					</svg>
 				</a>
 				<a
-					href='https://twitter.com/edwindelbosque'
+					href='https://twitter.com/roya_moussapour'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<svg
@@ -43,7 +43,7 @@ const Socials = () => {
 					</svg>
 				</a>
 				<a
-					href='https://instagram.com/edwindelbosque'
+					href='https://instagram.com/rmmjun'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<svg
