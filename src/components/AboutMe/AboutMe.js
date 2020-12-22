@@ -25,7 +25,7 @@ const AboutMe = () => {
               </a>{" "}
               . At the Teaching Systems Lab, I design and research the future of 
               teacher learning. My work is interdisciplinary and holds equity and access 
-              at the center.
+              at its center.
             </p>
             <p>
               After graduating from{" "}
@@ -44,7 +44,7 @@ const AboutMe = () => {
                 rel="noopener noreferrer"
                 className="hyperlink"
               >
-                Compass Lexecon{" "}
+                Compass Lexecon
               </a>{" "}
               where I worked on data analysis and visualization in 
               regulatory and litigation matters.
