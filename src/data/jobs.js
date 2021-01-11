@@ -5,7 +5,7 @@ const jobs = [
     company: "MIT Teaching Systems Lab",
     location: "Cambridge, MA",
     dateRange: "August 2019 - Present",
-    url: "tsl.mit.edu",
+    url: "https://tsl.mit.edu/",
     description: [
       "Collaborate on a program delivering simulation-based learning opportunities to public school math teachers.",
       "Co-design simulations based on teachers' needs.",
