@@ -16,7 +16,7 @@ const AboutMe = () => {
             <p>
               I'm a mixed-methods education researcher at{" "}
               <a
-                href="https://tsl.mit.edu/"
+                href="https://lumenlearning.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
@@ -36,17 +36,25 @@ const AboutMe = () => {
               >
                 Bowdoin College
               </a>{" "}
-              with a degree in physics and education, I worked at{" "}
+              with a degree in physics and education, I worked as a data analyst for a number of years before pursuing my master's in Comparative Media Studies at the {" "}
               <a
-                href="https://compasslexecon.com"
+                href="http://mit.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
               >
-                Compass Lexecon
+                Massachusetts Institute of Technology
               </a>{" "}
-              where I worked on data analysis and visualization in 
-              regulatory and litigation matters.
+              . At MIT, I worked as a researcher in the {" "}
+              <a
+                href="https://tsl.mit.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hyperlink"
+              >
+                Teaching Systems Lab
+              </a>{" "}
+               for two years designing and implementing the future of teacher learning. 
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
             <section className="skills">
@@ -58,10 +66,10 @@ const AboutMe = () => {
                   <span>▹</span> Tableau
                 </li>
                 <li>
-                  <span>▹</span> Stata
+                  <span>▹</span> SQL
                 </li>
                 <li>
-                  <span>▹</span> SAS
+                  <span>▹</span> Miro
                 </li>
               </ul>
               <ul>
@@ -69,13 +77,13 @@ const AboutMe = () => {
                   <span>▹</span> Adobe XD
                 </li>
                 <li>
+                  <span>▹</span> Figma
+                </li>
+                <li>
                   <span>▹</span> ATLAS.ti
                 </li>
                 <li>
                   <span>▹</span> NVivo
-                </li>
-                <li>
-                  <span>▹</span> ArcGIS
                 </li>
               </ul>
             </section>
