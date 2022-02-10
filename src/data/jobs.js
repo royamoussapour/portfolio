@@ -1,15 +1,27 @@
 const jobs = [
+    {
+    id: 0,
+    title: "Dir. of Research and Continuous Improvement",
+    company: "Lumen Learning",
+    location: "Portland, OR",
+    dateRange: "September 2021 - Present",
+    url: "https://lumenlearning.com/",
+    description: [
+      "Lead internal research on new Lumen courseware through design, development, execution, and analysis of qualitative and quantitative data",
+      "Spearhead data science efforts to measure student success and determine areas for improvement of existing Lumen courseware",
+    ],
+  },
   {
     id: 0,
     title: "Researcher",
     company: "MIT Teaching Systems Lab",
     location: "Cambridge, MA",
-    dateRange: "August 2019 - Present",
+    dateRange: "August 2019 - June 2021",
     url: "https://tsl.mit.edu/",
     description: [
-      "Collaborate on a program delivering simulation-based learning opportunities to public school math teachers.",
-      "Co-design simulations based on teachers' needs.",
-      "Design and implement survey measures, interview protocols, and research practices for collection and analysis of qualitative and quantitative data.",
+      "Collaborated on a program delivering simulation-based learning opportunities to public school math teachers.",
+      "Co-designed teaching simulations based on teachers' needs.",
+      "Planned and implemented qualitative and quantitative research methods for collection and analysis of data.",
     ],
   },
   {
@@ -24,40 +36,7 @@ const jobs = [
       "Created data visualizations using Excel and Tableau to present economic analyses and models to clients.",
     ],
   },
-  {
-    id: 2,
-    title: "Summer Consultant",
-    company: "Bates White Economic Consulting",
-    location: "Washington, D.C.",
-    dateRange: "June 2016 - August 2016",
-    url: "https://www.bateswhite.com/",
-    description: [
-      "Researched pharmaceutical marketing methods and regulation around pharmaceutical marketing.",
-      "Processed and analyzed data in order to create data visualizations summarizing trends in pharmaceutical prescribing of blood pressure medications."
-    ],
-  },
-  {
-    id: 3,
-    title: "Research Intern",
-    company: "NASA Marshall Space Flight Center",
-    location: "Huntsville, AL",
-    dateRange: "June 2015 - August 2015",
-    url: "https://www.nasa.gov/centers/marshall/home/index.html",
-    description: [
-      "Tested novel terrestrial gamma-ray flash detector designs based on a CubeSat platform to determine most efficient design for detector.",
-    ],
-  },
-  {
-    id: 4,
-    title: "Gibbons Summer Research Fellow",
-    company: "Bowdoin College",
-    location: "Brunswick, ME",
-    dateRange: "June 2014 - August 2014",
-    url: "https://bowdoin.edu",
-    description: [
-      "Compiled tweets and profile information from K-12 teachers' public Twitter profiles to study teachers' moral dissatisfaction with the practice of teaching.",
-      "Analyzed Twitter data to look at trends in location, gender, topics, and emotions between teachers' tweets."
-    ],
+
   },
 ];
 
