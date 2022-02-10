@@ -14,17 +14,16 @@ const AboutMe = () => {
               <span>01. </span>About Me
             </h2>
             <p>
-              I'm a master's student at MIT, where I am a mixed-methods researcher at the{" "}
+              I'm a mixed-methods education researcher at{" "}
               <a
                 href="https://tsl.mit.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hyperlink"
               >
-                Teaching Systems Lab
+                Lumen Learning
               </a>
-              . At the Teaching Systems Lab, I design and research the future of 
-              teacher learning. My work is interdisciplinary and holds equity and access 
+              , where I lead internal research efforts to make sure our courses are delivering best-in-class learning experiences for all students. My work is interdisciplinary and holds equity and access 
               at its center.
             </p>
             <p>
